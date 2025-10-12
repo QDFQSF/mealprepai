@@ -1,6 +1,5 @@
-export const runtime = 'edge';
-
 "use client";
+export const runtime = 'edge';
 import Header from "@/components/Header";
 import data from "@/data/recipes.json";
 import type { Recipe } from "@/lib/types";
