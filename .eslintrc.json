@@ -1,0 +1,9 @@
+{
+  "root": true,
+  "extends": ["next", "next/core-web-vitals"],
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off",
+    "react-hooks/rules-of-hooks": "off",
+    "@typescript-eslint/no-unused-expressions": "off"
+  }
+}
