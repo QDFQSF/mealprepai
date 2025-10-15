@@ -31,6 +31,13 @@ type Recipe = {
 
 const all: Recipe[] = (data as any) as Recipe[];
 
+// ✅✅✅ AJOUTE CES 5 LIGNES ICI (juste après "const all") ✅✅✅
+export async function generateStaticParams() {
+  return all.map((recipe) => ({
+    slug: recipe.slug
+  }));
+}
+
 /* ---------- Helpers ---------- */
 
 function formatQty(n?: number) {
