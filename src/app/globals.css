@@ -1,26 +1,387 @@
-@import "tailwindcss";
+/* ===== MealPrepAI — CSS propre et optimisé ===== */
 
+/* === Variables === */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: #0f1115;
+  --bg-elev: #161a22;
+  --card: #11161c;
+  --border: #273044;
+  --text: #e8edf7;
+  --muted: #9aa6b2;
+  --primary: #7c5cff;
+  --primary-2: #6448d8;
+  --ok: #2ecc71;
+  --warn: #f39c12;
+  --danger: #ef476f;
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --ring: 0 0 0 3px rgba(124, 92, 255, 0.35);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* === Reset === */
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; height: 100%; }
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  height: 100%;
+  background: linear-gradient(180deg, var(--bg), #0b0d12 60%, #0a0c10);
+  color: var(--text);
+  font: 500 16px/1.55 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* === Layout === */
+.container, .shell {
+  width: 100%;
+  max-width: 980px;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+
+/* === Header === */
+.site-header, .header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border);
+  background: color-mix(in oklab, var(--bg) 85%, transparent);
+}
+.site-header .container,
+.header .shell {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.brand {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-weight: 800;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  gap: 18px;
+}
+.nav a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 10px;
+  border-radius: 10px;
+  transition: color 0.18s, background 0.18s;
+}
+.nav a:hover {
+  color: var(--text);
+  background: color-mix(in oklab, var(--bg-elev) 80%, transparent);
+}
+
+/* === Footer === */
+.site-footer, .footer {
+  margin-top: 60px;
+  padding: 40px 0;
+  color: var(--muted);
+  border-top: 1px solid var(--border);
+}
+
+/* === Typographie === */
+h1, h2, h3 { line-height: 1.2; margin: 22px 0 12px; }
+h1, .h1 { font-size: clamp(26px, 3vw, 34px); font-weight: 900; letter-spacing: 0.2px; }
+h2, .h2 { font-size: clamp(22px, 2.5vw, 28px); font-weight: 800; }
+h3 { font-size: 20px; font-weight: 800; }
+p { margin: 10px 0; }
+small, .muted { color: var(--muted); }
+
+/* === Inputs === */
+input[type="text"],
+input[type="search"],
+select,
+textarea,
+.input,
+.select {
+  width: 100%;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 12px;
+  padding: 12px 14px;
+  outline: none;
+  transition: border-color 0.18s, box-shadow 0.18s;
+}
+input::placeholder { color: #7e889e; }
+input:focus, select:focus, textarea:focus {
+  border-color: var(--primary);
+  box-shadow: var(--ring);
+}
+
+/* === Boutons === */
+.btn, button:not([type="checkbox"]) {
+  --bg-btn: var(--bg-elev);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  color: var(--text);
+  background: var(--bg-btn);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.06s, background 0.18s, border-color 0.18s;
+}
+.btn:hover { transform: translateY(-1px); }
+.btn:active { transform: translateY(0) scale(0.98); }
+.btn-primary, .btn.primary { --bg-btn: var(--primary); border-color: var(--primary-2); color: white; }
+.btn.ghost { background: transparent; box-shadow: none; }
+.btn.danger { --bg-btn: var(--danger); color: white; }
+
+/* === Cards === */
+.card {
+  background: linear-gradient(180deg, color-mix(in oklab, var(--card) 70%, transparent), var(--card));
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 16px 18px;
+  box-shadow: var(--shadow);
+  transition: transform 0.12s, box-shadow 0.12s, border-color 0.12s;
+}
+.card.hover:hover {
+  transform: translateY(-1px);
+  border-color: color-mix(in oklab, var(--primary) 35%, var(--border));
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.4);
+}
+
+/* === Badges === */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+/* === Pills (filtres) === */
+.pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.pill {
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid color-mix(in oklab, var(--border) 80%, transparent);
+  background: color-mix(in oklab, var(--bg-elev) 92%, transparent);
+  color: var(--muted);
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: transform 0.15s, border-color 0.15s, background 0.15s, color 0.15s;
+}
+.pill:hover {
+  transform: translateY(-1px);
+  color: var(--text);
+  border-color: color-mix(in oklab, var(--primary) 35%, var(--border));
+}
+.pill--active, .pill.active {
+  color: #fff;
+  border-color: transparent;
+  background: linear-gradient(135deg, color-mix(in oklab, var(--primary) 92%, #000), var(--primary-2));
+  box-shadow: 0 2px 14px color-mix(in oklab, var(--primary) 28%, transparent);
+}
+
+/* === Checkboxes (switch style) === */
+input[type="checkbox"]:not(.list-item input) {
+  appearance: none;
+  width: 46px;
+  height: 28px;
+  margin: 0 8px 0 0;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  position: relative;
+  cursor: pointer;
+  transition: background 0.18s, border-color 0.18s;
+}
+input[type="checkbox"]::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #cfd6e4;
+  transition: left 0.18s, background 0.18s;
+}
+input[type="checkbox"]:checked {
+  background: var(--primary);
+  border-color: color-mix(in oklab, var(--primary) 70%, #000);
+}
+input[type="checkbox"]:checked::after {
+  left: 21px;
+  background: #0b0f13;
+}
+
+/* === Panneau de recherche (sticky) === */
+.search-panel {
+  position: sticky;
+  top: 64px;
+  z-index: 20;
+  background: color-mix(in oklab, var(--bg-elev) 92%, transparent);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  backdrop-filter: saturate(130%) blur(6px);
+  margin-bottom: 22px;
+}
+
+.search-panel input[type="text"],
+.search-panel input[type="search"] {
+  padding: 14px 16px 14px 54px;
+  background: radial-gradient(120% 120% at 0% 0%, rgba(255, 255, 255, 0.03), transparent 70%), var(--bg);
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24' fill='none' stroke='%239aa6b2' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='11' cy='11' r='8'/><line x1='21' y1='21' x2='16.65' y2='16.65'/></svg>");
+  background-repeat: no-repeat;
+  background-position: 16px 50%;
+}
+
+/* === Liste de résultats === */
+.results-list {
+  margin-top: 18px;
+  display: grid;
+  gap: 12px;
+}
+
+/* === Images (thumb + placeholder) === */
+.mp-thumb {
+  width: 72px;
+  height: 72px;
+  flex: 0 0 72px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: radial-gradient(120% 120% at 50% 0%, #0f1218, #0b0e14);
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+.mp-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mp-hero {
+  height: 220px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(120% 120% at 50% 0%, #121826, #0f131c);
+  overflow: hidden;
+  margin-bottom: 14px;
+}
+.mp-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Placeholder SVG (icône assiette) */
+.mp-icon {
+  width: 56%;
+  height: 56%;
+  color: #e9d8b7;
+  opacity: 0.9;
+}
+
+/* === Utilitaires === */
+.row { display: flex; align-items: center; gap: 12px; }
+.stack { display: flex; flex-direction: column; gap: 12px; }
+.columns {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 900px) {
+  .columns { grid-template-columns: 1fr 1fr; }
+}
+
+.mt-2 { margin-top: 8px; }
+.mt-3 { margin-top: 12px; }
+.mt-4 { margin-top: 16px; }
+.mt-12 { margin-top: 12px; }
+
+.clean-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.clean-ul .item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+}
+
+/* === Hint IA === */
+.ai-hint {
+  font-size: 0.95rem;
+  padding: 6px 10px;
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  background: linear-gradient(180deg, rgba(140, 118, 255, 0.06), rgba(140, 118, 255, 0.03));
+}
+
+/* === Liste de courses === */
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: #0f121a;
+}
+.list-item input[type="checkbox"] {
+  width: 42px;
+  height: 24px;
+}
+/* === FIX : Liens des cartes recettes === */
+
+/* Retire la couleur bleue des liens dans les cartes */
+.card a,
+.card--recipe a,
+.result-item a,
+main li > a {
+  color: var(--text) !important;  /* Blanc/gris clair au lieu de bleu */
+  text-decoration: none;
+}
+
+/* Au survol, garde une couleur cohérente */
+.card a:hover,
+.card--recipe a:hover,
+.result-item a:hover,
+main li > a:hover {
+  color: var(--text) !important;
+  text-decoration: none;
+}
+
+/* Si tu veux un effet hover subtil sur le titre uniquement */
+.card a:hover .recipe-title,
+.card--recipe a:hover {
+  color: color-mix(in oklab, var(--text) 90%, var(--primary));
 }

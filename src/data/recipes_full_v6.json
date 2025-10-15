@@ -1,0 +1,3515 @@
+[
+  {
+    "slug": "riz-saute-au-poulet",
+    "name": "Riz sauté au poulet",
+    "time": 18,
+    "budget": "eco",
+    "type": "plat",
+    "origin": "asiatique",
+    "difficulty": "facile",
+    "tags": [
+      "Poêle",
+      "Wok"
+    ],
+    "image": "/images/riz-saute-au-poulet.jpg",
+    "nutrition": {
+      "calories": 645,
+      "proteines": 21,
+      "glucides": 35,
+      "lipides": 12
+    },
+    "ingredientsQty": [
+      {
+        "name": "riz",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "blanc de poulet",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "oignon",
+        "qty": 1
+      },
+      {
+        "name": "ail",
+        "qty": 1
+      },
+      {
+        "name": "sauce soja",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "huile neutre",
+        "qty": 1,
+        "unit": "c.à.s."
+      },
+      {
+        "name": "oeuf",
+        "qty": 1
+      }
+    ],
+    "steps": [
+      "Préparer les ingrédients (laver, émincer, peser).",
+      "Cuisson (sauté/mijoté/four) selon la recette.",
+      "Ajouter sauce/assaisonnement et lier si nécessaire.",
+      "Laisser reposer 1–2 min, goûter et ajuster.",
+      "Dresser et servir."
+    ]
+  },
+  {
+    "slug": "pates-a-la-carbonara-style-express",
+    "name": "Pâtes à la carbonara (style express)",
+    "time": 20,
+    "budget": "eco",
+    "type": "plat",
+    "origin": "italienne",
+    "difficulty": "facile",
+    "tags": [],
+    "image": "/images/pates-a-la-carbonara-style-express.jpg",
+    "nutrition": {
+      "calories": 437,
+      "proteines": 39,
+      "glucides": 79,
+      "lipides": 12
+    },
+    "ingredientsQty": [
+      {
+        "name": "pates",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "oeuf",
+        "qty": 1
+      },
+      {
+        "name": "lardons",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "parmesan",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "poivre",
+        "qty": 1,
+        "unit": "pincée"
+      }
+    ],
+    "steps": [
+      "Porte à ébullition une grande casserole d’eau salée. Cuis les pâtes al dente.",
+      "Fais dorer les lardons/guanciale 4–5 min. Égoutte l’excès de gras si besoin.",
+      "Mélange œufs + parmesan + beaucoup de poivre dans un bol (hors feu).",
+      "Égoutte les pâtes en gardant 1 louche d’eau de cuisson. Hors du feu, mélange pâtes + lardons + appareil.",
+      "Détends avec l’eau de cuisson pour obtenir une texture crémeuse (sans coaguler). Poivre et sers."
+    ]
+  },
+  {
+    "slug": "curry-de-lentilles-corail",
+    "name": "Curry de lentilles corail",
+    "time": 25,
+    "budget": "eco",
+    "type": "plat",
+    "origin": "indienne",
+    "difficulty": "facile",
+    "tags": [
+      "Healthy",
+      "Végétarien"
+    ],
+    "image": "/images/curry-de-lentilles-corail.jpg",
+    "nutrition": {
+      "calories": 470,
+      "proteines": 29,
+      "glucides": 50,
+      "lipides": 10
+    },
+    "ingredientsQty": [
+      {
+        "name": "lentilles corail",
+        "qty": 1
+      },
+      {
+        "name": "lait de coco",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "curry",
+        "qty": 1,
+        "unit": "pincée"
+      },
+      {
+        "name": "oignon",
+        "qty": 1
+      },
+      {
+        "name": "ail",
+        "qty": 1
+      },
+      {
+        "name": "gingembre"
+      },
+      {
+        "name": "huile",
+        "qty": 1,
+        "unit": "c.à.s."
+      }
+    ],
+    "steps": [
+      "Rince les lentilles. Émince oignon/ail/gingembre et fais-les revenir 2–3 min dans une cuillerée d’huile.",
+      "Ajoute les épices (curry/curcuma/cumin) 30 s pour les torréfier.",
+      "Verse tomate concassée et lait de coco, ajoute les lentilles et couvre d’un peu d’eau si besoin.",
+      "Mijote 15–20 min en remuant de temps en temps jusqu’à texture veloutée.",
+      "Assaisonne (sel, jus de citron, coriandre). Sers avec riz ou naan."
+    ]
+  },
+  {
+    "slug": "saumon-au-four-citron-herbes",
+    "name": "Saumon au four citron-herbes",
+    "time": 22,
+    "budget": "plus",
+    "type": "plat",
+    "origin": "mediterraneenne",
+    "difficulty": "facile",
+    "tags": [
+      "Four",
+      "Healthy"
+    ],
+    "image": "/images/saumon-au-four-citron-herbes.jpg",
+    "nutrition": {
+      "calories": 435,
+      "proteines": 18,
+      "glucides": 57,
+      "lipides": 25
+    },
+    "ingredientsQty": [
+      {
+        "name": "saumon",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "citron",
+        "qty": 1
+      },
+      {
+        "name": "herbes"
+      },
+      {
+        "name": "huile d'olive",
+        "qty": 1,
+        "unit": "c.à.s."
+      },
+      {
+        "name": "sel",
+        "qty": 1,
+        "unit": "pincée"
+      },
+      {
+        "name": "poivre",
+        "qty": 1,
+        "unit": "pincée"
+      }
+    ],
+    "steps": [
+      "Préchauffer le four (180–200°C).",
+      "Préparer la garniture (légumes/protéine + aromates + liant).",
+      "Monter le plat, ajouter fromage/chapelure si besoin.",
+      "Enfourner jusqu’à gratiné et cuisson à cœur.",
+      "Laisser reposer 5–10 min avant de servir."
+    ]
+  },
+  {
+    "slug": "tacos-de-poulet",
+    "name": "Tacos de poulet",
+    "time": 20,
+    "budget": "normal",
+    "type": "plat",
+    "origin": "mexicaine",
+    "difficulty": "facile",
+    "tags": [],
+    "image": "/images/tacos-de-poulet.jpg",
+    "nutrition": {
+      "calories": 657,
+      "proteines": 22,
+      "glucides": 40,
+      "lipides": 15
+    },
+    "ingredientsQty": [
+      {
+        "name": "tortillas"
+      },
+      {
+        "name": "poulet",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "epices"
+      },
+      {
+        "name": "oignon",
+        "qty": 1
+      },
+      {
+        "name": "tomate",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "salade"
+      },
+      {
+        "name": "yaourt",
+        "qty": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Préparer la protéine (steak/poulet/thon) et les crudités.",
+      "Toaster pain/tortillas.",
+      "Monter avec sauce, salade, tomate, fromage/protéine.",
+      "Assembler et presser légèrement.",
+      "Servir aussitôt."
+    ]
+  },
+  {
+    "slug": "omelette-champignons-fromage",
+    "name": "Omelette champignons-fromage",
+    "time": 12,
+    "budget": "eco",
+    "type": "plat",
+    "origin": "francaise",
+    "difficulty": "facile",
+    "tags": [],
+    "image": "/images/omelette-champignons-fromage.jpg",
+    "nutrition": {
+      "calories": 478,
+      "proteines": 18,
+      "glucides": 67,
+      "lipides": 25
+    },
+    "ingredientsQty": [
+      {
+        "name": "oeuf",
+        "qty": 1
+      },
+      {
+        "name": "champignons",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "fromage",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "beurre",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "sel",
+        "qty": 1,
+        "unit": "pincée"
+      },
+      {
+        "name": "poivre",
+        "qty": 1,
+        "unit": "pincée"
+      }
+    ],
+    "steps": [
+      "Préparer les ingrédients (laver, émincer, peser).",
+      "Cuisson (sauté/mijoté/four) selon la recette.",
+      "Ajouter sauce/assaisonnement et lier si nécessaire.",
+      "Laisser reposer 1–2 min, goûter et ajuster.",
+      "Dresser et servir."
+    ]
+  },
+  {
+    "slug": "buddha-bowl-quinoa",
+    "name": "Buddha bowl quinoa",
+    "time": 18,
+    "budget": "normal",
+    "type": "plat",
+    "origin": "mediterraneenne",
+    "difficulty": "facile",
+    "tags": [
+      "Healthy",
+      "Végétarien"
+    ],
+    "image": "/images/buddha-bowl-quinoa.jpg",
+    "nutrition": {
+      "calories": 547,
+      "proteines": 20,
+      "glucides": 77,
+      "lipides": 27
+    },
+    "ingredientsQty": [
+      {
+        "name": "quinoa",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "pois chiches"
+      },
+      {
+        "name": "avocat",
+        "qty": 1
+      },
+      {
+        "name": "tomates",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "concombre",
+        "qty": 0.5
+      },
+      {
+        "name": "vinaigrette",
+        "qty": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Préparer les ingrédients (laver, émincer, peser).",
+      "Cuisson (sauté/mijoté/four) selon la recette.",
+      "Ajouter sauce/assaisonnement et lier si nécessaire.",
+      "Laisser reposer 1–2 min, goûter et ajuster.",
+      "Dresser et servir."
+    ]
+  },
+  {
+    "slug": "stir-fry-boeuf-brocoli",
+    "name": "Stir-fry boeuf brocoli",
+    "time": 17,
+    "budget": "plus",
+    "type": "plat",
+    "origin": "asiatique",
+    "difficulty": "moyen",
+    "tags": [
+      "Wok"
+    ],
+    "image": "/images/stir-fry-boeuf-brocoli.jpg",
+    "nutrition": {
+      "calories": 658,
+      "proteines": 20,
+      "glucides": 73,
+      "lipides": 12
+    },
+    "ingredientsQty": [
+      {
+        "name": "boeuf",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "brocoli"
+      },
+      {
+        "name": "sauce soja",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "ail",
+        "qty": 1
+      },
+      {
+        "name": "huile",
+        "qty": 1,
+        "unit": "c.à.s."
+      },
+      {
+        "name": "maizena"
+      }
+    ],
+    "steps": [
+      "Préparer les ingrédients (laver, émincer, peser).",
+      "Cuisson (sauté/mijoté/four) selon la recette.",
+      "Ajouter sauce/assaisonnement et lier si nécessaire.",
+      "Laisser reposer 1–2 min, goûter et ajuster.",
+      "Dresser et servir."
+    ]
+  },
+  {
+    "slug": "veloute-de-courgette",
+    "name": "Velouté de courgette",
+    "time": 20,
+    "budget": "eco",
+    "type": "soupe",
+    "origin": "francaise",
+    "difficulty": "facile",
+    "tags": [
+      "Mixeur"
+    ],
+    "image": "/images/veloute-de-courgette.jpg",
+    "nutrition": {
+      "calories": 311,
+      "proteines": 14,
+      "glucides": 16,
+      "lipides": 10
+    },
+    "ingredientsQty": [
+      {
+        "name": "courgette",
+        "qty": 1
+      },
+      {
+        "name": "oignon",
+        "qty": 1
+      },
+      {
+        "name": "bouillon",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "fromage frais",
+        "qty": 40,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Suer oignon/poireau 2–3 min dans un peu d’huile.",
+      "Ajouter les légumes et couvrir de bouillon.",
+      "Cuire 15–25 min jusqu’à tendreté (gaspacho: mixer à cru).",
+      "Mixer lisse, ajouter crème/fromage si souhaité.",
+      "Rectifier assaisonnement et servir."
+    ]
+  },
+  {
+    "slug": "soupe-de-potiron",
+    "name": "Soupe de potiron",
+    "time": 30,
+    "budget": "eco",
+    "type": "soupe",
+    "origin": "francaise",
+    "difficulty": "facile",
+    "tags": [
+      "Healthy",
+      "Mixeur"
+    ],
+    "image": "/images/soupe-de-potiron.jpg",
+    "nutrition": {
+      "calories": 322,
+      "proteines": 6,
+      "glucides": 35,
+      "lipides": 10
+    },
+    "ingredientsQty": [
+      {
+        "name": "potiron"
+      },
+      {
+        "name": "pomme de terre",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "oignon",
+        "qty": 1
+      },
+      {
+        "name": "bouillon",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "creme",
+        "qty": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Suer oignon/poireau 2–3 min dans un peu d’huile.",
+      "Ajouter les légumes et couvrir de bouillon.",
+      "Cuire 15–25 min jusqu’à tendreté (gaspacho: mixer à cru).",
+      "Mixer lisse, ajouter crème/fromage si souhaité.",
+      "Rectifier assaisonnement et servir."
+    ]
+  },
+  {
+    "slug": "salade-grecque",
+    "name": "Salade grecque",
+    "time": 10,
+    "budget": "normal",
+    "type": "entree",
+    "origin": "mediterraneenne",
+    "difficulty": "facile",
+    "tags": [
+      "Healthy",
+      "Végétarien"
+    ],
+    "image": "/images/salade-grecque.jpg",
+    "nutrition": {
+      "calories": 303,
+      "proteines": 18,
+      "glucides": 26,
+      "lipides": 10
+    },
+    "ingredientsQty": [
+      {
+        "name": "tomate",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "concombre",
+        "qty": 0.5
+      },
+      {
+        "name": "feta",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "olive"
+      },
+      {
+        "name": "oignon rouge",
+        "qty": 1
+      },
+      {
+        "name": "huile d'olive",
+        "qty": 1,
+        "unit": "c.à.s."
+      }
+    ],
+    "steps": [
+      "Couper proprement les légumes (dés/lamelles).",
+      "Préparer la protéine (poulet grillé, feta, œufs durs, thon).",
+      "Mélanger délicatement avec la sauce (vinaigrette/César).",
+      "Ajouter croûtons/graines/herbes au dernier moment.",
+      "Servir frais."
+    ]
+  },
+  {
+    "slug": "bruschetta-tomate-basilic",
+    "name": "Bruschetta tomate-basilic",
+    "time": 12,
+    "budget": "eco",
+    "type": "entree",
+    "origin": "italienne",
+    "difficulty": "facile",
+    "tags": [],
+    "image": "/images/bruschetta-tomate-basilic.jpg",
+    "nutrition": {
+      "calories": 243,
+      "proteines": 15,
+      "glucides": 44,
+      "lipides": 9
+    },
+    "ingredientsQty": [
+      {
+        "name": "pain"
+      },
+      {
+        "name": "tomate",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "ail",
+        "qty": 1
+      },
+      {
+        "name": "basilic"
+      },
+      {
+        "name": "huile d'olive",
+        "qty": 1,
+        "unit": "c.à.s."
+      }
+    ],
+    "steps": [
+      "Couper proprement les légumes (dés/lamelles).",
+      "Préparer la protéine (poulet grillé, feta, œufs durs, thon).",
+      "Mélanger délicatement avec la sauce (vinaigrette/César).",
+      "Ajouter croûtons/graines/herbes au dernier moment.",
+      "Servir frais."
+    ]
+  },
+  {
+    "slug": "gratin-dauphinois",
+    "name": "Gratin dauphinois",
+    "time": 70,
+    "budget": "normal",
+    "type": "plat",
+    "origin": "francaise",
+    "difficulty": "moyen",
+    "tags": [
+      "Four"
+    ],
+    "image": "/images/gratin-dauphinois.jpg",
+    "nutrition": {
+      "calories": 652,
+      "proteines": 34,
+      "glucides": 77,
+      "lipides": 10
+    },
+    "ingredientsQty": [
+      {
+        "name": "pomme de terre",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "creme",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "lait",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "ail",
+        "qty": 1
+      },
+      {
+        "name": "beurre",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "noix de muscade",
+        "qty": 40,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Préchauffe le four à 180°C. Épluche les pommes de terre et tranche-les très finement (2–3 mm).",
+      "Frotte le plat avec une gousse d’ail. Porte à frémissement lait + crème avec sel fin et une pointe de muscade.",
+      "Dispose une première couche de lamelles, verse un peu de mélange lait/crème, puis recommence en couches.",
+      "Tape légèrement le plat pour chasser l’air. Enfourne 50–60 min jusqu’à doré et fondant (pointe de couteau facile).",
+      "Laisse reposer 10 min avant de servir pour que le gratin se fige et soit net à la coupe."
+    ]
+  },
+  {
+    "slug": "lasagnes-bolognaise",
+    "name": "Lasagnes bolognaise",
+    "time": 60,
+    "budget": "normal",
+    "type": "plat",
+    "origin": "italienne",
+    "difficulty": "moyen",
+    "tags": [
+      "Four"
+    ],
+    "image": "/images/lasagnes-bolognaise.jpg",
+    "nutrition": {
+      "calories": 680,
+      "proteines": 20,
+      "glucides": 35,
+      "lipides": 20
+    },
+    "ingredientsQty": [
+      {
+        "name": "pates a lasagne",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "boeuf hache",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "tomate",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "oignon",
+        "qty": 1
+      },
+      {
+        "name": "carotte",
+        "qty": 1
+      },
+      {
+        "name": "bechamel"
+      },
+      {
+        "name": "fromage",
+        "qty": 40,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Suer oignon/carotte, ajouter bœuf haché, puis tomate. Mijoter 20 min.",
+      "Préparer une béchamel (beurre+farine+lait).",
+      "Monter: couche sauce / plaques / bolognaise / béchamel / fromage (répéter).",
+      "Cuire 35–40 min à 190°C jusqu’à gratiné.",
+      "Laisser reposer 10 min avant de couper."
+    ]
+  },
+  {
+    "slug": "poulet-roti",
+    "name": "Poulet rôti",
+    "time": 75,
+    "budget": "plus",
+    "type": "plat",
+    "origin": "francaise",
+    "difficulty": "moyen",
+    "tags": [
+      "Four"
+    ],
+    "image": "/images/poulet-roti.jpg",
+    "nutrition": {
+      "calories": 493,
+      "proteines": 40,
+      "glucides": 65,
+      "lipides": 22
+    },
+    "ingredientsQty": [
+      {
+        "name": "poulet",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "herbes"
+      },
+      {
+        "name": "beurre",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "ail",
+        "qty": 1
+      },
+      {
+        "name": "citron",
+        "qty": 1
+      }
+    ],
+    "steps": [
+      "Préchauffe le four à 200°C. Sale, poivre, farcis d’ail/citron.",
+      "Frotte de beurre/huile, ajoute herbes. Dépose dans un plat.",
+      "Rôtis 60–75 min en arrosant toutes les 15 min.",
+      "Repose 10 min sous alu avant de trancher.",
+      "Sers avec le jus de cuisson."
+    ]
+  },
+  {
+    "slug": "chili-sin-carne",
+    "name": "Chili sin carne",
+    "time": 35,
+    "budget": "eco",
+    "type": "plat",
+    "origin": "mexicaine",
+    "difficulty": "facile",
+    "tags": [
+      "Végétarien"
+    ],
+    "image": "/images/chili-sin-carne.jpg",
+    "nutrition": {
+      "calories": 505,
+      "proteines": 19,
+      "glucides": 39,
+      "lipides": 28
+    },
+    "ingredientsQty": [
+      {
+        "name": "haricots rouges"
+      },
+      {
+        "name": "maïs"
+      },
+      {
+        "name": "tomate",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "oignon",
+        "qty": 1
+      },
+      {
+        "name": "epices"
+      },
+      {
+        "name": "poivron",
+        "qty": 1
+      }
+    ],
+    "steps": [
+      "Émincer oignon/ail (gingembre si besoin) et faire revenir 3–4 min.",
+      "Ajouter les épices 30 s pour les torréfier.",
+      "Verser lait de coco/tomate + protéine/légumineuse.",
+      "Mijoter à feu doux jusqu’à sauce onctueuse.",
+      "Rectifier (sel, piment, citron/sucre) et servir avec riz/pain."
+    ]
+  },
+  {
+    "slug": "tajine-de-poulet-aux-olives",
+    "name": "Tajine de poulet aux olives",
+    "time": 55,
+    "budget": "normal",
+    "type": "plat",
+    "origin": "maghrebine",
+    "difficulty": "moyen",
+    "tags": [],
+    "image": "/images/tajine-de-poulet-aux-olives.jpg",
+    "nutrition": {
+      "calories": 674,
+      "proteines": 23,
+      "glucides": 39,
+      "lipides": 27
+    },
+    "ingredientsQty": [
+      {
+        "name": "poulet",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "olive"
+      },
+      {
+        "name": "citron confit",
+        "qty": 1
+      },
+      {
+        "name": "oignon",
+        "qty": 1
+      },
+      {
+        "name": "epices"
+      },
+      {
+        "name": "huile d'olive",
+        "qty": 1,
+        "unit": "c.à.s."
+      }
+    ],
+    "steps": [
+      "Émincer oignon/ail (gingembre si besoin) et faire revenir 3–4 min.",
+      "Ajouter les épices 30 s pour les torréfier.",
+      "Verser lait de coco/tomate + protéine/légumineuse.",
+      "Mijoter à feu doux jusqu’à sauce onctueuse.",
+      "Rectifier (sel, piment, citron/sucre) et servir avec riz/pain."
+    ]
+  },
+  {
+    "slug": "poisson-au-four-a-la-provencale",
+    "name": "Poisson au four à la provençale",
+    "time": 30,
+    "budget": "plus",
+    "type": "plat",
+    "origin": "mediterraneenne",
+    "difficulty": "facile",
+    "tags": [
+      "Four",
+      "Healthy"
+    ],
+    "image": "/images/poisson-au-four-a-la-provencale.jpg",
+    "nutrition": {
+      "calories": 530,
+      "proteines": 22,
+      "glucides": 36,
+      "lipides": 21
+    },
+    "ingredientsQty": [
+      {
+        "name": "poisson blanc",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "tomate",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "oignon",
+        "qty": 1
+      },
+      {
+        "name": "herbes"
+      },
+      {
+        "name": "huile d'olive",
+        "qty": 1,
+        "unit": "c.à.s."
+      }
+    ],
+    "steps": [
+      "Préchauffe le four à 190°C. Dispose le poisson dans un plat.",
+      "Ajoute oignon en lamelles, tomates concassées et herbes.",
+      "Arrose d’huile d’olive, sale et poivre.",
+      "Enfourne 15–20 min selon l’épaisseur.",
+      "Finis au citron, sers avec riz ou légumes."
+    ]
+  },
+  {
+    "slug": "granola-maison",
+    "name": "Granola maison",
+    "time": 30,
+    "budget": "normal",
+    "type": "petit-dej",
+    "origin": "francaise",
+    "difficulty": "facile",
+    "tags": [
+      "Healthy"
+    ],
+    "image": "/images/granola-maison.jpg",
+    "nutrition": {
+      "calories": 497,
+      "proteines": 13,
+      "glucides": 68,
+      "lipides": 10
+    },
+    "ingredientsQty": [
+      {
+        "name": "flocons d'avoine",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "miel"
+      },
+      {
+        "name": "huile",
+        "qty": 1,
+        "unit": "c.à.s."
+      },
+      {
+        "name": "noix",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "graines",
+        "qty": 40,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Préparer les ingrédients (laver, émincer, peser).",
+      "Cuisson (sauté/mijoté/four) selon la recette.",
+      "Ajouter sauce/assaisonnement et lier si nécessaire.",
+      "Laisser reposer 1–2 min, goûter et ajuster.",
+      "Dresser et servir."
+    ]
+  },
+  {
+    "slug": "smoothie-banane-fraise",
+    "name": "Smoothie banane-fraise",
+    "time": 5,
+    "budget": "eco",
+    "type": "petit-dej",
+    "origin": "francaise",
+    "difficulty": "facile",
+    "tags": [
+      "Healthy",
+      "Mixeur"
+    ],
+    "image": "/images/smoothie-banane-fraise.jpg",
+    "nutrition": {
+      "calories": 471,
+      "proteines": 19,
+      "glucides": 64,
+      "lipides": 8
+    },
+    "ingredientsQty": [
+      {
+        "name": "banane",
+        "qty": 1
+      },
+      {
+        "name": "fraise"
+      },
+      {
+        "name": "yaourt",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "lait",
+        "qty": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Préparer les ingrédients (laver, émincer, peser).",
+      "Cuisson (sauté/mijoté/four) selon la recette.",
+      "Ajouter sauce/assaisonnement et lier si nécessaire.",
+      "Laisser reposer 1–2 min, goûter et ajuster.",
+      "Dresser et servir."
+    ]
+  },
+  {
+    "slug": "bowl-cake-proteine",
+    "name": "Bowl cake protéiné",
+    "time": 8,
+    "budget": "eco",
+    "type": "petit-dej",
+    "origin": "francaise",
+    "difficulty": "facile",
+    "tags": [
+      "Healthy"
+    ],
+    "image": "/images/bowl-cake-proteine.jpg",
+    "nutrition": {
+      "calories": 406,
+      "proteines": 18,
+      "glucides": 37,
+      "lipides": 10
+    },
+    "ingredientsQty": [
+      {
+        "name": "flocons d'avoine",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "oeuf",
+        "qty": 1
+      },
+      {
+        "name": "lait",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "banane",
+        "qty": 1
+      },
+      {
+        "name": "levure"
+      }
+    ],
+    "steps": [
+      "Fouette œufs + sucre. Ajoute farine puis lait progressivement.",
+      "Ajoute sel + un peu d’huile/beurre fondu. Repose 10 min.",
+      "Chauffe une poêle/gaufrier. Verse une louche de pâte.",
+      "Cuire des deux côtés (ou 3–4 min en gaufrier).",
+      "Servir avec garniture sucrée."
+    ]
+  },
+  {
+    "slug": "mousse-au-chocolat",
+    "name": "Mousse au chocolat",
+    "time": 25,
+    "budget": "normal",
+    "type": "dessert",
+    "origin": "francaise",
+    "difficulty": "moyen",
+    "tags": [],
+    "image": "/images/mousse-au-chocolat.jpg",
+    "nutrition": {
+      "calories": 389,
+      "proteines": 6,
+      "glucides": 44,
+      "lipides": 16
+    },
+    "ingredientsQty": [
+      {
+        "name": "chocolat",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "oeuf",
+        "qty": 1
+      },
+      {
+        "name": "sucre",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "beurre",
+        "qty": 40,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Préparer l’appareil/pâte (beurre/sucre/œufs/farine).",
+      "Ajouter aromatiques (chocolat, vanille, cacao, fruits).",
+      "Façonner/monter (boules, couches, fond de tarte).",
+      "Cuire ou laisser prendre (four / repos au froid).",
+      "Finition (cacao, sucre glace, fruits). Servir."
+    ]
+  },
+  {
+    "slug": "tarte-aux-pommes-rustique",
+    "name": "Tarte aux pommes rustique",
+    "time": 55,
+    "budget": "normal",
+    "type": "dessert",
+    "origin": "francaise",
+    "difficulty": "moyen",
+    "tags": [
+      "Four"
+    ],
+    "image": "/images/tarte-aux-pommes-rustique.jpg",
+    "nutrition": {
+      "calories": 519,
+      "proteines": 11,
+      "glucides": 36,
+      "lipides": 24
+    },
+    "ingredientsQty": [
+      {
+        "name": "pate"
+      },
+      {
+        "name": "pomme"
+      },
+      {
+        "name": "sucre",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "beurre",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "cannelle",
+        "qty": 1,
+        "unit": "pincée"
+      }
+    ],
+    "steps": [
+      "Préchauffer le four (180–200°C).",
+      "Préparer la garniture (légumes/protéine + aromates + liant).",
+      "Monter le plat, ajouter fromage/chapelure si besoin.",
+      "Enfourner jusqu’à gratiné et cuisson à cœur.",
+      "Laisser reposer 5–10 min avant de servir."
+    ]
+  },
+  {
+    "slug": "poke-bowl-saumon",
+    "name": "Poke bowl saumon",
+    "time": 22,
+    "budget": "plus",
+    "type": "plat",
+    "origin": "asiatique",
+    "difficulty": "facile",
+    "tags": [
+      "Cru",
+      "Healthy"
+    ],
+    "image": "/images/poke-bowl-saumon.jpg",
+    "nutrition": {
+      "calories": 598,
+      "proteines": 33,
+      "glucides": 56,
+      "lipides": 28
+    },
+    "ingredientsQty": [
+      {
+        "name": "riz",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "saumon",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "avocat",
+        "qty": 1
+      },
+      {
+        "name": "concombre",
+        "qty": 0.5
+      },
+      {
+        "name": "sauce soja",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "sesame"
+      }
+    ],
+    "steps": [
+      "Rince le riz, cuis par absorption puis laisse tiédir pour qu’il ne mouille pas le bol.",
+      "Coupe le saumon en dés, marine 10–15 min avec sauce soja + un trait de citron.",
+      "Détaille concombre/avocat et prépare les toppings (edamame, sésame, oignons verts).",
+      "Dresse : riz au fond, garnitures en secteurs. Ajoute saumon et un filet de sauce.",
+      "Goûte et ajuste (citron, piment, sauce) juste avant de servir."
+    ]
+  },
+  {
+    "slug": "riz-cantonais",
+    "name": "Riz cantonais",
+    "time": 18,
+    "budget": "eco",
+    "type": "plat",
+    "origin": "asiatique",
+    "difficulty": "facile",
+    "tags": [
+      "Wok"
+    ],
+    "image": "/images/riz-cantonais.jpg",
+    "nutrition": {
+      "calories": 659,
+      "proteines": 33,
+      "glucides": 37,
+      "lipides": 25
+    },
+    "ingredientsQty": [
+      {
+        "name": "riz",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "oeuf",
+        "qty": 1
+      },
+      {
+        "name": "petits pois"
+      },
+      {
+        "name": "jambon",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "sauce soja",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "huile",
+        "qty": 1,
+        "unit": "c.à.s."
+      }
+    ],
+    "steps": [
+      "Préparer les ingrédients (laver, émincer, peser).",
+      "Cuisson (sauté/mijoté/four) selon la recette.",
+      "Ajouter sauce/assaisonnement et lier si nécessaire.",
+      "Laisser reposer 1–2 min, goûter et ajuster.",
+      "Dresser et servir."
+    ]
+  },
+  {
+    "slug": "pates-au-pesto",
+    "name": "Pâtes au pesto",
+    "time": 16,
+    "budget": "normal",
+    "type": "plat",
+    "origin": "italienne",
+    "difficulty": "facile",
+    "tags": [],
+    "image": "/images/pates-au-pesto.jpg",
+    "nutrition": {
+      "calories": 507,
+      "proteines": 32,
+      "glucides": 68,
+      "lipides": 24
+    },
+    "ingredientsQty": [
+      {
+        "name": "pates",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "pesto",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "parmesan",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "pignon",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "huile d'olive",
+        "qty": 1,
+        "unit": "c.à.s."
+      }
+    ],
+    "steps": [
+      "Cuire les pâtes dans une grande casserole d’eau salée.",
+      "Préparer la sauce (tomate/pesto/crème, aromatiques selon la recette).",
+      "Égoutter en gardant un peu d’eau de cuisson.",
+      "Mélanger pâtes + sauce et détendre avec l’eau réservée.",
+      "Ajouter fromage/herbes et servir."
+    ]
+  },
+  {
+    "slug": "pates-thon-tomate",
+    "name": "Pâtes thon-tomate",
+    "time": 18,
+    "budget": "eco",
+    "type": "plat",
+    "origin": "italienne",
+    "difficulty": "facile",
+    "tags": [],
+    "image": "/images/pates-thon-tomate.jpg",
+    "nutrition": {
+      "calories": 571,
+      "proteines": 26,
+      "glucides": 42,
+      "lipides": 15
+    },
+    "ingredientsQty": [
+      {
+        "name": "pates",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "thon",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "tomate",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "ail",
+        "qty": 1
+      },
+      {
+        "name": "oignon",
+        "qty": 1
+      }
+    ],
+    "steps": [
+      "Cuire les pâtes dans une grande casserole d’eau salée.",
+      "Préparer la sauce (tomate/pesto/crème, aromatiques selon la recette).",
+      "Égoutter en gardant un peu d’eau de cuisson.",
+      "Mélanger pâtes + sauce et détendre avec l’eau réservée.",
+      "Ajouter fromage/herbes et servir."
+    ]
+  },
+  {
+    "slug": "boeuf-bourguignon-rapide",
+    "name": "Boeuf bourguignon rapide",
+    "time": 45,
+    "budget": "plus",
+    "type": "plat",
+    "origin": "francaise",
+    "difficulty": "moyen",
+    "tags": [],
+    "image": "/images/boeuf-bourguignon-rapide.jpg",
+    "nutrition": {
+      "calories": 633,
+      "proteines": 31,
+      "glucides": 42,
+      "lipides": 26
+    },
+    "ingredientsQty": [
+      {
+        "name": "boeuf",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "vin rouge",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "carotte",
+        "qty": 1
+      },
+      {
+        "name": "oignon",
+        "qty": 1
+      },
+      {
+        "name": "lardon"
+      },
+      {
+        "name": "bouquet garni"
+      }
+    ],
+    "steps": [
+      "Préparer les ingrédients (laver, émincer, peser).",
+      "Cuisson (sauté/mijoté/four) selon la recette.",
+      "Ajouter sauce/assaisonnement et lier si nécessaire.",
+      "Laisser reposer 1–2 min, goûter et ajuster.",
+      "Dresser et servir."
+    ]
+  },
+  {
+    "slug": "quiche-lorraine",
+    "name": "Quiche lorraine",
+    "time": 45,
+    "budget": "normal",
+    "type": "plat",
+    "origin": "francaise",
+    "difficulty": "facile",
+    "tags": [
+      "Four"
+    ],
+    "image": "/images/quiche-lorraine.jpg",
+    "nutrition": {
+      "calories": 472,
+      "proteines": 33,
+      "glucides": 59,
+      "lipides": 18
+    },
+    "ingredientsQty": [
+      {
+        "name": "pate brisee"
+      },
+      {
+        "name": "lardon"
+      },
+      {
+        "name": "oeuf",
+        "qty": 1
+      },
+      {
+        "name": "creme",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "lait",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "gruyere",
+        "qty": 40,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Préchauffer le four à 190°C. Étaler la pâte et la piquer.",
+      "Faire revenir garniture (lardons/légumes). Égoutter.",
+      "Fouetter œufs + crème/lait. Assaisonner (sel léger, poivre, muscade).",
+      "Répartir garniture + fromage, verser l’appareil.",
+      "Cuire 30–40 min. Laisser tiédir 10 min avant de servir."
+    ]
+  },
+  {
+    "slug": "shakshuka",
+    "name": "Shakshuka",
+    "time": 25,
+    "budget": "eco",
+    "type": "plat",
+    "origin": "mediterraneenne",
+    "difficulty": "facile",
+    "tags": [
+      "Poêle",
+      "Végétarien"
+    ],
+    "image": "/images/shakshuka.jpg",
+    "nutrition": {
+      "calories": 518,
+      "proteines": 29,
+      "glucides": 41,
+      "lipides": 15
+    },
+    "ingredientsQty": [
+      {
+        "name": "oeuf",
+        "qty": 1
+      },
+      {
+        "name": "tomate",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "poivron",
+        "qty": 1
+      },
+      {
+        "name": "oignon",
+        "qty": 1
+      },
+      {
+        "name": "epices"
+      }
+    ],
+    "steps": [
+      "Émincer oignon/ail (gingembre si besoin) et faire revenir 3–4 min.",
+      "Ajouter les épices 30 s pour les torréfier.",
+      "Verser lait de coco/tomate + protéine/légumineuse.",
+      "Mijoter à feu doux jusqu’à sauce onctueuse.",
+      "Rectifier (sel, piment, citron/sucre) et servir avec riz/pain."
+    ]
+  },
+  {
+    "slug": "risotto-aux-champignons",
+    "name": "Risotto aux champignons",
+    "time": 30,
+    "budget": "plus",
+    "type": "plat",
+    "origin": "italienne",
+    "difficulty": "moyen",
+    "tags": [],
+    "image": "/images/risotto-aux-champignons.jpg",
+    "nutrition": {
+      "calories": 557,
+      "proteines": 22,
+      "glucides": 55,
+      "lipides": 24
+    },
+    "ingredientsQty": [
+      {
+        "name": "riz arborio",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "champignons",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "bouillon",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "parmesan",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "oignon",
+        "qty": 1
+      },
+      {
+        "name": "vin blanc",
+        "qty": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Chauffe le bouillon. Émince l’oignon et nettoie les champignons.",
+      "Suer l’oignon, nacrer le riz 1–2 min, déglacer au vin blanc.",
+      "Ajouter le bouillon chaud louche par louche 18–20 min.",
+      "Saisir les champignons séparément puis incorporer.",
+      "Finir au parmesan + beurre. Repos 1 min et servir."
+    ]
+  },
+  {
+    "slug": "poulet-curry-coco",
+    "name": "Poulet curry coco",
+    "time": 25,
+    "budget": "normal",
+    "type": "plat",
+    "origin": "indienne",
+    "difficulty": "facile",
+    "tags": [
+      "Sans gluten"
+    ],
+    "image": "/images/poulet-curry-coco.jpg",
+    "nutrition": {
+      "calories": 456,
+      "proteines": 20,
+      "glucides": 60,
+      "lipides": 16
+    },
+    "ingredientsQty": [
+      {
+        "name": "poulet",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "lait de coco",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "curry",
+        "qty": 1,
+        "unit": "pincée"
+      },
+      {
+        "name": "oignon",
+        "qty": 1
+      },
+      {
+        "name": "ail",
+        "qty": 1
+      }
+    ],
+    "steps": [
+      "Coupe le poulet en bouchées. Fais revenir oignon/ail 2–3 min dans l’huile.",
+      "Ajoute la pâte/épices de curry 30 s, puis le poulet pour le colorer rapidement.",
+      "Verse lait de coco et un peu d’eau/bouillon. Laisse mijoter 10–12 min jusqu’à sauce nappante.",
+      "Ajoute éventuellement des légumes (poivron, courgette) en dés et poursuis 5 min.",
+      "Rectifie (sel, citron/sucre). Sers avec riz basmati."
+    ]
+  },
+  {
+    "slug": "dahl-de-pois-chiches",
+    "name": "Dahl de pois chiches",
+    "time": 28,
+    "budget": "eco",
+    "type": "plat",
+    "origin": "indienne",
+    "difficulty": "facile",
+    "tags": [
+      "Healthy",
+      "Végétarien"
+    ],
+    "image": "/images/dahl-de-pois-chiches.jpg",
+    "nutrition": {
+      "calories": 444,
+      "proteines": 27,
+      "glucides": 37,
+      "lipides": 17
+    },
+    "ingredientsQty": [
+      {
+        "name": "pois chiches"
+      },
+      {
+        "name": "tomate",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "oignon",
+        "qty": 1
+      },
+      {
+        "name": "curry",
+        "qty": 1,
+        "unit": "pincée"
+      },
+      {
+        "name": "lait de coco",
+        "qty": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Émincer oignon/ail (gingembre si besoin) et faire revenir 3–4 min.",
+      "Ajouter les épices 30 s pour les torréfier.",
+      "Verser lait de coco/tomate + protéine/légumineuse.",
+      "Mijoter à feu doux jusqu’à sauce onctueuse.",
+      "Rectifier (sel, piment, citron/sucre) et servir avec riz/pain."
+    ]
+  },
+  {
+    "slug": "boulettes-sauce-tomate",
+    "name": "Boulettes sauce tomate",
+    "time": 30,
+    "budget": "normal",
+    "type": "plat",
+    "origin": "italienne",
+    "difficulty": "facile",
+    "tags": [],
+    "image": "/images/boulettes-sauce-tomate.jpg",
+    "nutrition": {
+      "calories": 679,
+      "proteines": 20,
+      "glucides": 79,
+      "lipides": 20
+    },
+    "ingredientsQty": [
+      {
+        "name": "boeuf hache",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "tomate",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "ail",
+        "qty": 1
+      },
+      {
+        "name": "oignon",
+        "qty": 1
+      },
+      {
+        "name": "herbes"
+      }
+    ],
+    "steps": [
+      "Préparer les ingrédients (laver, émincer, peser).",
+      "Cuisson (sauté/mijoté/four) selon la recette.",
+      "Ajouter sauce/assaisonnement et lier si nécessaire.",
+      "Laisser reposer 1–2 min, goûter et ajuster.",
+      "Dresser et servir."
+    ]
+  },
+  {
+    "slug": "filet-mignon-moutarde",
+    "name": "Filet mignon moutarde",
+    "time": 35,
+    "budget": "plus",
+    "type": "plat",
+    "origin": "francaise",
+    "difficulty": "moyen",
+    "tags": [],
+    "image": "/images/filet-mignon-moutarde.jpg",
+    "nutrition": {
+      "calories": 576,
+      "proteines": 32,
+      "glucides": 39,
+      "lipides": 28
+    },
+    "ingredientsQty": [
+      {
+        "name": "filet mignon",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "moutarde"
+      },
+      {
+        "name": "creme",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "oignon",
+        "qty": 1
+      }
+    ],
+    "steps": [
+      "Assaisonner le poisson (sel, poivre, citron, herbes).",
+      "Cuire au four 12–15 min, en papillote ou poêler 2–3 min/face.",
+      "Préparer garniture/sauce (vierge, yaourt-herbes, légumes).",
+      "Dresser avec accompagnement (riz, légumes).",
+      "Ajuster au citron et servir."
+    ]
+  },
+  {
+    "slug": "couscous-legumes",
+    "name": "Couscous légumes",
+    "time": 35,
+    "budget": "eco",
+    "type": "plat",
+    "origin": "maghrebine",
+    "difficulty": "facile",
+    "tags": [
+      "Healthy",
+      "Végétarien"
+    ],
+    "image": "/images/couscous-legumes.jpg",
+    "nutrition": {
+      "calories": 551,
+      "proteines": 20,
+      "glucides": 79,
+      "lipides": 23
+    },
+    "ingredientsQty": [
+      {
+        "name": "semoule",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "carotte",
+        "qty": 1
+      },
+      {
+        "name": "courgette",
+        "qty": 1
+      },
+      {
+        "name": "pois chiches"
+      },
+      {
+        "name": "epices"
+      }
+    ],
+    "steps": [
+      "Préparer les ingrédients (laver, émincer, peser).",
+      "Cuisson (sauté/mijoté/four) selon la recette.",
+      "Ajouter sauce/assaisonnement et lier si nécessaire.",
+      "Laisser reposer 1–2 min, goûter et ajuster.",
+      "Dresser et servir."
+    ]
+  },
+  {
+    "slug": "falafels-au-four",
+    "name": "Falafels au four",
+    "time": 30,
+    "budget": "eco",
+    "type": "plat",
+    "origin": "mediterraneenne",
+    "difficulty": "moyen",
+    "tags": [
+      "Four",
+      "Végétarien"
+    ],
+    "image": "/images/falafels-au-four.jpg",
+    "nutrition": {
+      "calories": 523,
+      "proteines": 21,
+      "glucides": 60,
+      "lipides": 16
+    },
+    "ingredientsQty": [
+      {
+        "name": "pois chiches"
+      },
+      {
+        "name": "ail",
+        "qty": 1
+      },
+      {
+        "name": "oignon",
+        "qty": 1
+      },
+      {
+        "name": "coriandre"
+      },
+      {
+        "name": "cumin",
+        "qty": 1,
+        "unit": "pincée"
+      },
+      {
+        "name": "huile",
+        "qty": 1,
+        "unit": "c.à.s."
+      }
+    ],
+    "steps": [
+      "Préchauffer le four (180–200°C).",
+      "Préparer la garniture (légumes/protéine + aromates + liant).",
+      "Monter le plat, ajouter fromage/chapelure si besoin.",
+      "Enfourner jusqu’à gratiné et cuisson à cœur.",
+      "Laisser reposer 5–10 min avant de servir."
+    ]
+  },
+  {
+    "slug": "burger-maison",
+    "name": "Burger maison",
+    "time": 25,
+    "budget": "normal",
+    "type": "plat",
+    "origin": "americaine",
+    "difficulty": "facile",
+    "tags": [],
+    "image": "/images/burger-maison.jpg",
+    "nutrition": {
+      "calories": 655,
+      "proteines": 34,
+      "glucides": 50,
+      "lipides": 21
+    },
+    "ingredientsQty": [
+      {
+        "name": "pain burger"
+      },
+      {
+        "name": "steak hache",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "fromage",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "salade"
+      },
+      {
+        "name": "tomate",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "sauce",
+        "qty": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Préparer la protéine (steak/poulet/thon) et les crudités.",
+      "Toaster pain/tortillas.",
+      "Monter avec sauce, salade, tomate, fromage/protéine.",
+      "Assembler et presser légèrement.",
+      "Servir aussitôt."
+    ]
+  },
+  {
+    "slug": "wraps-thon-mais",
+    "name": "Wraps thon maïs",
+    "time": 12,
+    "budget": "eco",
+    "type": "plat",
+    "origin": "mexicaine",
+    "difficulty": "facile",
+    "tags": [],
+    "image": "/images/wraps-thon-mais.jpg",
+    "nutrition": {
+      "calories": 525,
+      "proteines": 34,
+      "glucides": 79,
+      "lipides": 23
+    },
+    "ingredientsQty": [
+      {
+        "name": "tortillas"
+      },
+      {
+        "name": "thon",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "mais"
+      },
+      {
+        "name": "salade"
+      },
+      {
+        "name": "yaourt",
+        "qty": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Cuire les pâtes dans une grande casserole d’eau salée.",
+      "Préparer la sauce (tomate/pesto/crème, aromatiques selon la recette).",
+      "Égoutter en gardant un peu d’eau de cuisson.",
+      "Mélanger pâtes + sauce et détendre avec l’eau réservée.",
+      "Ajouter fromage/herbes et servir."
+    ]
+  },
+  {
+    "slug": "gyozas-poulet",
+    "name": "Gyozas poulet",
+    "time": 30,
+    "budget": "plus",
+    "type": "plat",
+    "origin": "asiatique",
+    "difficulty": "avance",
+    "tags": [
+      "Wok"
+    ],
+    "image": "/images/gyozas-poulet.jpg",
+    "nutrition": {
+      "calories": 509,
+      "proteines": 36,
+      "glucides": 48,
+      "lipides": 19
+    },
+    "ingredientsQty": [
+      {
+        "name": "pate gyoza"
+      },
+      {
+        "name": "poulet",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "chou"
+      },
+      {
+        "name": "gingembre"
+      },
+      {
+        "name": "sauce soja",
+        "qty": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Préparer les ingrédients (laver, émincer, peser).",
+      "Cuisson (sauté/mijoté/four) selon la recette.",
+      "Ajouter sauce/assaisonnement et lier si nécessaire.",
+      "Laisser reposer 1–2 min, goûter et ajuster.",
+      "Dresser et servir."
+    ]
+  },
+  {
+    "slug": "pad-thai-simplifie",
+    "name": "Pad thaï simplifié",
+    "time": 22,
+    "budget": "normal",
+    "type": "plat",
+    "origin": "asiatique",
+    "difficulty": "moyen",
+    "tags": [
+      "Wok",
+      "Sans gluten"
+    ],
+    "image": "/images/pad-thai-simplifie.jpg",
+    "nutrition": {
+      "calories": 450,
+      "proteines": 29,
+      "glucides": 69,
+      "lipides": 14
+    },
+    "ingredientsQty": [
+      {
+        "name": "nouilles de riz",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "oeuf",
+        "qty": 1
+      },
+      {
+        "name": "poulet",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "sauce soja",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "cacahuete"
+      },
+      {
+        "name": "citron vert",
+        "qty": 1
+      }
+    ],
+    "steps": [
+      "Préparer les ingrédients (laver, émincer, peser).",
+      "Cuisson (sauté/mijoté/four) selon la recette.",
+      "Ajouter sauce/assaisonnement et lier si nécessaire.",
+      "Laisser reposer 1–2 min, goûter et ajuster.",
+      "Dresser et servir."
+    ]
+  },
+  {
+    "slug": "poelee-gnocchis-legumes",
+    "name": "Poêlée gnocchis-légumes",
+    "time": 18,
+    "budget": "normal",
+    "type": "plat",
+    "origin": "italienne",
+    "difficulty": "facile",
+    "tags": [
+      "Healthy",
+      "Poêle",
+      "Végétarien"
+    ],
+    "image": "/images/poelee-gnocchis-legumes.jpg",
+    "nutrition": {
+      "calories": 675,
+      "proteines": 35,
+      "glucides": 65,
+      "lipides": 20
+    },
+    "ingredientsQty": [
+      {
+        "name": "gnocchis",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "courgette",
+        "qty": 1
+      },
+      {
+        "name": "poivron",
+        "qty": 1
+      },
+      {
+        "name": "oignon",
+        "qty": 1
+      },
+      {
+        "name": "parmesan",
+        "qty": 40,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Préparer les ingrédients (laver, émincer, peser).",
+      "Cuisson (sauté/mijoté/four) selon la recette.",
+      "Ajouter sauce/assaisonnement et lier si nécessaire.",
+      "Laisser reposer 1–2 min, goûter et ajuster.",
+      "Dresser et servir."
+    ]
+  },
+  {
+    "slug": "poke-bowl-tofu",
+    "name": "Poke bowl tofu",
+    "time": 22,
+    "budget": "normal",
+    "type": "plat",
+    "origin": "asiatique",
+    "difficulty": "facile",
+    "tags": [
+      "Cru",
+      "Healthy",
+      "Végétarien"
+    ],
+    "image": "/images/poke-bowl-tofu.jpg",
+    "nutrition": {
+      "calories": 491,
+      "proteines": 22,
+      "glucides": 38,
+      "lipides": 15
+    },
+    "ingredientsQty": [
+      {
+        "name": "riz",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "tofu",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "avocat",
+        "qty": 1
+      },
+      {
+        "name": "edamame"
+      },
+      {
+        "name": "sauce soja",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "sesame"
+      }
+    ],
+    "steps": [
+      "Rince le riz, cuis par absorption puis laisse tiédir.",
+      "Coupe saumon/tofu en dés, marine 10 min avec sauce soja + citron.",
+      "Prépare concombre/avocat et toppings (edamame, sésame).",
+      "Dresse: riz au fond, garnitures autour. Ajoute un filet de sauce.",
+      "Goûte et ajuste (piment, citron), sers."
+    ]
+  },
+  {
+    "slug": "soupe-miso-tofu",
+    "name": "Soupe miso tofu",
+    "time": 12,
+    "budget": "plus",
+    "type": "soupe",
+    "origin": "asiatique",
+    "difficulty": "facile",
+    "tags": [
+      "Healthy",
+      "Mixeur",
+      "Végétarien"
+    ],
+    "image": "/images/soupe-miso-tofu.jpg",
+    "nutrition": {
+      "calories": 217,
+      "proteines": 18,
+      "glucides": 32,
+      "lipides": 7
+    },
+    "ingredientsQty": [
+      {
+        "name": "miso"
+      },
+      {
+        "name": "tofu",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "algues"
+      },
+      {
+        "name": "oignon nouveau",
+        "qty": 1
+      }
+    ],
+    "steps": [
+      "Suer oignon/poireau 2–3 min dans un peu d’huile.",
+      "Ajouter les légumes et couvrir de bouillon.",
+      "Cuire 15–25 min jusqu’à tendreté (gaspacho: mixer à cru).",
+      "Mixer lisse, ajouter crème/fromage si souhaité.",
+      "Rectifier assaisonnement et servir."
+    ]
+  },
+  {
+    "slug": "veloute-poireaux-pommes-de-terre",
+    "name": "Velouté poireaux-pommes de terre",
+    "time": 25,
+    "budget": "eco",
+    "type": "soupe",
+    "origin": "francaise",
+    "difficulty": "facile",
+    "tags": [
+      "Mixeur"
+    ],
+    "image": "/images/veloute-poireaux-pommes-de-terre.jpg",
+    "nutrition": {
+      "calories": 362,
+      "proteines": 10,
+      "glucides": 20,
+      "lipides": 6
+    },
+    "ingredientsQty": [
+      {
+        "name": "poireau"
+      },
+      {
+        "name": "pomme de terre",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "bouillon",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "creme",
+        "qty": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Suer oignon/poireau 2–3 min dans un peu d’huile.",
+      "Ajouter les légumes et couvrir de bouillon.",
+      "Cuire 15–25 min jusqu’à tendreté (gaspacho: mixer à cru).",
+      "Mixer lisse, ajouter crème/fromage si souhaité.",
+      "Rectifier assaisonnement et servir."
+    ]
+  },
+  {
+    "slug": "salade-de-lentilles-feta",
+    "name": "Salade de lentilles feta",
+    "time": 20,
+    "budget": "eco",
+    "type": "entree",
+    "origin": "mediterraneenne",
+    "difficulty": "facile",
+    "tags": [
+      "Healthy",
+      "Végétarien"
+    ],
+    "image": "/images/salade-de-lentilles-feta.jpg",
+    "nutrition": {
+      "calories": 351,
+      "proteines": 15,
+      "glucides": 16,
+      "lipides": 16
+    },
+    "ingredientsQty": [
+      {
+        "name": "lentilles"
+      },
+      {
+        "name": "feta",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "tomate",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "oignon",
+        "qty": 1
+      },
+      {
+        "name": "herbes"
+      }
+    ],
+    "steps": [
+      "Couper proprement les légumes (dés/lamelles).",
+      "Préparer la protéine (poulet grillé, feta, œufs durs, thon).",
+      "Mélanger délicatement avec la sauce (vinaigrette/César).",
+      "Ajouter croûtons/graines/herbes au dernier moment.",
+      "Servir frais."
+    ]
+  },
+  {
+    "slug": "taboule",
+    "name": "Taboulé",
+    "time": 15,
+    "budget": "eco",
+    "type": "entree",
+    "origin": "mediterraneenne",
+    "difficulty": "facile",
+    "tags": [
+      "Végétarien"
+    ],
+    "image": "/images/taboule.jpg",
+    "nutrition": {
+      "calories": 202,
+      "proteines": 17,
+      "glucides": 40,
+      "lipides": 8
+    },
+    "ingredientsQty": [
+      {
+        "name": "semoule",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "tomate",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "concombre",
+        "qty": 0.5
+      },
+      {
+        "name": "menthe"
+      },
+      {
+        "name": "citron",
+        "qty": 1
+      },
+      {
+        "name": "huile d'olive",
+        "qty": 1,
+        "unit": "c.à.s."
+      }
+    ],
+    "steps": [
+      "Mixer pois chiches + herbes + ail + épices (falafels) et façonner.",
+      "Cuire au four ou poêler jusqu’à croûte dorée.",
+      "Houmous : mixer pois chiches + tahini + citron + ail + eau glacée.",
+      "Taboulé : hydrater semoule, ajouter tomate/concombre/menthe/citron/huile.",
+      "Assaisonner et servir frais."
+    ]
+  },
+  {
+    "slug": "houmous",
+    "name": "Houmous",
+    "time": 10,
+    "budget": "eco",
+    "type": "entree",
+    "origin": "mediterraneenne",
+    "difficulty": "facile",
+    "tags": [
+      "Healthy",
+      "Végétarien"
+    ],
+    "image": "/images/houmous.jpg",
+    "nutrition": {
+      "calories": 235,
+      "proteines": 5,
+      "glucides": 28,
+      "lipides": 12
+    },
+    "ingredientsQty": [
+      {
+        "name": "pois chiches"
+      },
+      {
+        "name": "tahini"
+      },
+      {
+        "name": "citron",
+        "qty": 1
+      },
+      {
+        "name": "ail",
+        "qty": 1
+      },
+      {
+        "name": "huile d'olive",
+        "qty": 1,
+        "unit": "c.à.s."
+      }
+    ],
+    "steps": [
+      "Mixer pois chiches + herbes + ail + épices (falafels) et façonner.",
+      "Cuire au four ou poêler jusqu’à croûte dorée.",
+      "Houmous : mixer pois chiches + tahini + citron + ail + eau glacée.",
+      "Taboulé : hydrater semoule, ajouter tomate/concombre/menthe/citron/huile.",
+      "Assaisonner et servir frais."
+    ]
+  },
+  {
+    "slug": "gaspacho",
+    "name": "Gaspacho",
+    "time": 15,
+    "budget": "eco",
+    "type": "soupe",
+    "origin": "mediterraneenne",
+    "difficulty": "facile",
+    "tags": [],
+    "image": "/images/gaspacho.jpg",
+    "nutrition": {
+      "calories": 368,
+      "proteines": 10,
+      "glucides": 21,
+      "lipides": 16
+    },
+    "ingredientsQty": [
+      {
+        "name": "tomate",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "concombre",
+        "qty": 0.5
+      },
+      {
+        "name": "poivron",
+        "qty": 1
+      },
+      {
+        "name": "ail",
+        "qty": 1
+      },
+      {
+        "name": "huile d'olive",
+        "qty": 1,
+        "unit": "c.à.s."
+      },
+      {
+        "name": "vinaigre",
+        "qty": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Suer oignon/poireau 2–3 min dans un peu d’huile.",
+      "Ajouter les légumes et couvrir de bouillon.",
+      "Cuire 15–25 min jusqu’à tendreté (gaspacho: mixer à cru).",
+      "Mixer lisse, ajouter crème/fromage si souhaité.",
+      "Rectifier assaisonnement et servir."
+    ]
+  },
+  {
+    "slug": "crepes",
+    "name": "Crêpes",
+    "time": 20,
+    "budget": "eco",
+    "type": "dessert",
+    "origin": "francaise",
+    "difficulty": "facile",
+    "tags": [],
+    "image": "/images/crepes.jpg",
+    "nutrition": {
+      "calories": 417,
+      "proteines": 8,
+      "glucides": 52,
+      "lipides": 21
+    },
+    "ingredientsQty": [
+      {
+        "name": "farine",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "lait",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "oeuf",
+        "qty": 1
+      },
+      {
+        "name": "sucre",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "beurre",
+        "qty": 40,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Fouette œufs + sucre, ajoute la farine puis verse le lait petit à petit pour éviter les grumeaux.",
+      "Ajoute une pincée de sel et un peu d’huile/beurre fondu. Repose 10–20 min.",
+      "Chauffe une poêle légèrement huilée. Verse une louche de pâte et répartis finement.",
+      "Cuire 1–2 min, retourne, 30–60 s de l’autre côté.",
+      "Garde au tiède. Sers avec sucre, confiture ou pâte à tartiner."
+    ]
+  },
+  {
+    "slug": "tiramisu-express",
+    "name": "Tiramisu express",
+    "time": 25,
+    "budget": "plus",
+    "type": "dessert",
+    "origin": "italienne",
+    "difficulty": "moyen",
+    "tags": [
+      "Four"
+    ],
+    "image": "/images/tiramisu-express.jpg",
+    "nutrition": {
+      "calories": 428,
+      "proteines": 9,
+      "glucides": 56,
+      "lipides": 16
+    },
+    "ingredientsQty": [
+      {
+        "name": "mascarpone"
+      },
+      {
+        "name": "oeuf",
+        "qty": 1
+      },
+      {
+        "name": "sucre",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "biscuits"
+      },
+      {
+        "name": "cafe"
+      },
+      {
+        "name": "cacao"
+      }
+    ],
+    "steps": [
+      "Sépare blancs et jaunes. Fouette jaunes + sucre jusqu’à blanchiment puis ajoute mascarpone.",
+      "Monte les blancs en neige souple et incorpore délicatement à la crème.",
+      "Trempe très brièvement les biscuits dans café refroidi (ne pas détremper).",
+      "Monte en couches : biscuits / crème / biscuits / crème.",
+      "Filme et réfrigère au moins 3 h. Saupoudre de cacao avant service."
+    ]
+  },
+  {
+    "slug": "cookies-moelleux",
+    "name": "Cookies moelleux",
+    "time": 22,
+    "budget": "normal",
+    "type": "dessert",
+    "origin": "americaine",
+    "difficulty": "facile",
+    "tags": [
+      "Four"
+    ],
+    "image": "/images/cookies-moelleux.jpg",
+    "nutrition": {
+      "calories": 456,
+      "proteines": 5,
+      "glucides": 59,
+      "lipides": 20
+    },
+    "ingredientsQty": [
+      {
+        "name": "farine",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "beurre",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "sucre",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "oeuf",
+        "qty": 1
+      },
+      {
+        "name": "chocolat",
+        "qty": 40,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Préchauffe le four à 180°C. Créme beurre mou + sucres jusqu’à texture légère.",
+      "Ajoute l’œuf puis incorpore farine + levure + pincée de sel (sans trop travailler).",
+      "Ajoute les pépites de chocolat. Forme des boules de pâte.",
+      "Dispose espacées sur plaque et aplatis légèrement.",
+      "Cuire 10–12 min : bords dorés, centre encore moelleux. Refroidir sur grille."
+    ]
+  },
+  {
+    "slug": "porridge",
+    "name": "Porridge",
+    "time": 8,
+    "budget": "eco",
+    "type": "petit-dej",
+    "origin": "francaise",
+    "difficulty": "facile",
+    "tags": [
+      "Healthy"
+    ],
+    "image": "/images/porridge.jpg",
+    "nutrition": {
+      "calories": 371,
+      "proteines": 23,
+      "glucides": 60,
+      "lipides": 21
+    },
+    "ingredientsQty": [
+      {
+        "name": "flocons d'avoine",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "lait",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "banane",
+        "qty": 1
+      },
+      {
+        "name": "miel"
+      }
+    ],
+    "steps": [
+      "Préparer les ingrédients (laver, émincer, peser).",
+      "Cuisson (sauté/mijoté/four) selon la recette.",
+      "Ajouter sauce/assaisonnement et lier si nécessaire.",
+      "Laisser reposer 1–2 min, goûter et ajuster.",
+      "Dresser et servir."
+    ]
+  },
+  {
+    "slug": "salade-cesar",
+    "name": "Salade César",
+    "time": 18,
+    "budget": "plus",
+    "type": "plat",
+    "origin": "americaine",
+    "difficulty": "facile",
+    "tags": [
+      "Healthy"
+    ],
+    "image": "/images/salade-cesar.jpg",
+    "nutrition": {
+      "calories": 561,
+      "proteines": 34,
+      "glucides": 42,
+      "lipides": 22
+    },
+    "ingredientsQty": [
+      {
+        "name": "salade"
+      },
+      {
+        "name": "poulet",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "parmesan",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "croutons"
+      },
+      {
+        "name": "sauce cesar",
+        "qty": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Prépare le poulet (grillé/poêlé) et coupe-le en lamelles.",
+      "Réalise la sauce césar : yaourt/mayo + ail + citron + parmesan + anchois (facultatif).",
+      "Toaste le pain en croûtons avec un filet d’huile.",
+      "Assemble : romaine, poulet, croûtons, parmesan, puis nappe de sauce.",
+      "Poivre, ajoute un filet de citron au service."
+    ]
+  },
+  {
+    "slug": "ratatouille",
+    "name": "Ratatouille",
+    "time": 40,
+    "budget": "eco",
+    "type": "plat",
+    "origin": "francaise",
+    "difficulty": "moyen",
+    "tags": [
+      "Four",
+      "Végétarien"
+    ],
+    "image": "/images/ratatouille.jpg",
+    "nutrition": {
+      "calories": 560,
+      "proteines": 24,
+      "glucides": 54,
+      "lipides": 28
+    },
+    "ingredientsQty": [
+      {
+        "name": "courgette",
+        "qty": 1
+      },
+      {
+        "name": "aubergine",
+        "qty": 1
+      },
+      {
+        "name": "poivron",
+        "qty": 1
+      },
+      {
+        "name": "tomate",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "oignon",
+        "qty": 1
+      },
+      {
+        "name": "ail",
+        "qty": 1
+      }
+    ],
+    "steps": [
+      "Préchauffer le four (180–200°C).",
+      "Préparer la garniture (légumes/protéine + aromates + liant).",
+      "Monter le plat, ajouter fromage/chapelure si besoin.",
+      "Enfourner jusqu’à gratiné et cuisson à cœur.",
+      "Laisser reposer 5–10 min avant de servir."
+    ]
+  },
+  {
+    "slug": "poisson-en-papillote",
+    "name": "Poisson en papillote",
+    "time": 25,
+    "budget": "plus",
+    "type": "plat",
+    "origin": "mediterraneenne",
+    "difficulty": "facile",
+    "tags": [
+      "Four",
+      "Healthy"
+    ],
+    "image": "/images/poisson-en-papillote.jpg",
+    "nutrition": {
+      "calories": 623,
+      "proteines": 19,
+      "glucides": 57,
+      "lipides": 24
+    },
+    "ingredientsQty": [
+      {
+        "name": "poisson blanc",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "citron",
+        "qty": 1
+      },
+      {
+        "name": "herbes"
+      },
+      {
+        "name": "huile d'olive",
+        "qty": 1,
+        "unit": "c.à.s."
+      }
+    ],
+    "steps": [
+      "Préchauffer le four (180–200°C).",
+      "Préparer la garniture (légumes/protéine + aromates + liant).",
+      "Monter le plat, ajouter fromage/chapelure si besoin.",
+      "Enfourner jusqu’à gratiné et cuisson à cœur.",
+      "Laisser reposer 5–10 min avant de servir."
+    ]
+  },
+  {
+    "slug": "pilaf-de-boulgour",
+    "name": "Pilaf de boulgour",
+    "time": 22,
+    "budget": "eco",
+    "type": "plat",
+    "origin": "mediterraneenne",
+    "difficulty": "facile",
+    "tags": [
+      "Végétarien"
+    ],
+    "image": "/images/pilaf-de-boulgour.jpg",
+    "nutrition": {
+      "calories": 539,
+      "proteines": 33,
+      "glucides": 45,
+      "lipides": 22
+    },
+    "ingredientsQty": [
+      {
+        "name": "boulgour",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "oignon",
+        "qty": 1
+      },
+      {
+        "name": "bouillon",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "pois chiches"
+      },
+      {
+        "name": "epices"
+      }
+    ],
+    "steps": [
+      "Préparer les ingrédients (laver, émincer, peser).",
+      "Cuisson (sauté/mijoté/four) selon la recette.",
+      "Ajouter sauce/assaisonnement et lier si nécessaire.",
+      "Laisser reposer 1–2 min, goûter et ajuster.",
+      "Dresser et servir."
+    ]
+  },
+  {
+    "slug": "tofu-croustillant-au-four",
+    "name": "Tofu croustillant au four",
+    "time": 25,
+    "budget": "eco",
+    "type": "plat",
+    "origin": "asiatique",
+    "difficulty": "facile",
+    "tags": [
+      "Four",
+      "Végétarien"
+    ],
+    "image": "/images/tofu-croustillant-au-four.jpg",
+    "nutrition": {
+      "calories": 577,
+      "proteines": 18,
+      "glucides": 39,
+      "lipides": 25
+    },
+    "ingredientsQty": [
+      {
+        "name": "tofu",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "maizena"
+      },
+      {
+        "name": "sauce soja",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "ail",
+        "qty": 1
+      },
+      {
+        "name": "huile",
+        "qty": 1,
+        "unit": "c.à.s."
+      }
+    ],
+    "steps": [
+      "Préchauffer le four (180–200°C).",
+      "Préparer la garniture (légumes/protéine + aromates + liant).",
+      "Monter le plat, ajouter fromage/chapelure si besoin.",
+      "Enfourner jusqu’à gratiné et cuisson à cœur.",
+      "Laisser reposer 5–10 min avant de servir."
+    ]
+  },
+  {
+    "slug": "gratin-de-courgettes",
+    "name": "Gratin de courgettes",
+    "time": 35,
+    "budget": "eco",
+    "type": "plat",
+    "origin": "francaise",
+    "difficulty": "facile",
+    "tags": [
+      "Four"
+    ],
+    "image": "/images/gratin-de-courgettes.jpg",
+    "nutrition": {
+      "calories": 622,
+      "proteines": 27,
+      "glucides": 62,
+      "lipides": 25
+    },
+    "ingredientsQty": [
+      {
+        "name": "courgette",
+        "qty": 1
+      },
+      {
+        "name": "creme",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "fromage",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "ail",
+        "qty": 1
+      },
+      {
+        "name": "oeuf",
+        "qty": 1
+      }
+    ],
+    "steps": [
+      "Préchauffer le four (180–200°C).",
+      "Préparer la garniture (légumes/protéine + aromates + liant).",
+      "Monter le plat, ajouter fromage/chapelure si besoin.",
+      "Enfourner jusqu’à gratiné et cuisson à cœur.",
+      "Laisser reposer 5–10 min avant de servir."
+    ]
+  },
+  {
+    "slug": "galettes-de-pommes-de-terre",
+    "name": "Galettes de pommes de terre",
+    "time": 25,
+    "budget": "eco",
+    "type": "plat",
+    "origin": "francaise",
+    "difficulty": "facile",
+    "tags": [
+      "Poêle"
+    ],
+    "image": "/images/galettes-de-pommes-de-terre.jpg",
+    "nutrition": {
+      "calories": 515,
+      "proteines": 30,
+      "glucides": 75,
+      "lipides": 25
+    },
+    "ingredientsQty": [
+      {
+        "name": "pomme de terre",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "oeuf",
+        "qty": 1
+      },
+      {
+        "name": "farine",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "oignon",
+        "qty": 1
+      }
+    ],
+    "steps": [
+      "Préparer les ingrédients (laver, émincer, peser).",
+      "Cuisson (sauté/mijoté/four) selon la recette.",
+      "Ajouter sauce/assaisonnement et lier si nécessaire.",
+      "Laisser reposer 1–2 min, goûter et ajuster.",
+      "Dresser et servir."
+    ]
+  },
+  {
+    "slug": "banh-mi-au-poulet",
+    "name": "Banh mi au poulet",
+    "time": 20,
+    "budget": "normal",
+    "type": "plat",
+    "origin": "asiatique",
+    "difficulty": "facile",
+    "tags": [],
+    "image": "/images/banh-mi-au-poulet.jpg",
+    "nutrition": {
+      "calories": 500,
+      "proteines": 27,
+      "glucides": 72,
+      "lipides": 21
+    },
+    "ingredientsQty": [
+      {
+        "name": "baguette"
+      },
+      {
+        "name": "poulet",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "carotte",
+        "qty": 1
+      },
+      {
+        "name": "concombre",
+        "qty": 0.5
+      },
+      {
+        "name": "sauce soja",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "mayonnaise"
+      }
+    ],
+    "steps": [
+      "Préparer la protéine (steak/poulet/thon) et les crudités.",
+      "Toaster pain/tortillas.",
+      "Monter avec sauce, salade, tomate, fromage/protéine.",
+      "Assembler et presser légèrement.",
+      "Servir aussitôt."
+    ]
+  },
+  {
+    "slug": "pates-a-l-arrabiata",
+    "name": "Pâtes à l’arrabiata",
+    "time": 16,
+    "budget": "eco",
+    "type": "plat",
+    "origin": "italienne",
+    "difficulty": "facile",
+    "tags": [],
+    "image": "/images/pates-a-l-arrabiata.jpg",
+    "nutrition": {
+      "calories": 597,
+      "proteines": 24,
+      "glucides": 45,
+      "lipides": 26
+    },
+    "ingredientsQty": [
+      {
+        "name": "pates",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "tomate",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "ail",
+        "qty": 1
+      },
+      {
+        "name": "piment"
+      },
+      {
+        "name": "huile d'olive",
+        "qty": 1,
+        "unit": "c.à.s."
+      }
+    ],
+    "steps": [
+      "Cuire les pâtes dans une grande casserole d’eau salée.",
+      "Préparer la sauce (tomate/pesto/crème, aromatiques selon la recette).",
+      "Égoutter en gardant un peu d’eau de cuisson.",
+      "Mélanger pâtes + sauce et détendre avec l’eau réservée.",
+      "Ajouter fromage/herbes et servir."
+    ]
+  },
+  {
+    "slug": "soupe-carotte-coriandre",
+    "name": "Soupe carotte-coriandre",
+    "time": 22,
+    "budget": "eco",
+    "type": "soupe",
+    "origin": "francaise",
+    "difficulty": "facile",
+    "tags": [
+      "Healthy",
+      "Mixeur"
+    ],
+    "image": "/images/soupe-carotte-coriandre.jpg",
+    "nutrition": {
+      "calories": 325,
+      "proteines": 12,
+      "glucides": 40,
+      "lipides": 16
+    },
+    "ingredientsQty": [
+      {
+        "name": "carotte",
+        "qty": 1
+      },
+      {
+        "name": "oignon",
+        "qty": 1
+      },
+      {
+        "name": "bouillon",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "coriandre"
+      }
+    ],
+    "steps": [
+      "Suer oignon/poireau 2–3 min dans un peu d’huile.",
+      "Ajouter les légumes et couvrir de bouillon.",
+      "Cuire 15–25 min jusqu’à tendreté (gaspacho: mixer à cru).",
+      "Mixer lisse, ajouter crème/fromage si souhaité.",
+      "Rectifier assaisonnement et servir."
+    ]
+  },
+  {
+    "slug": "poke-bowl-crevettes",
+    "name": "Poke bowl crevettes",
+    "time": 22,
+    "budget": "plus",
+    "type": "plat",
+    "origin": "asiatique",
+    "difficulty": "facile",
+    "tags": [
+      "Cru",
+      "Healthy"
+    ],
+    "image": "/images/poke-bowl-crevettes.jpg",
+    "nutrition": {
+      "calories": 662,
+      "proteines": 39,
+      "glucides": 36,
+      "lipides": 24
+    },
+    "ingredientsQty": [
+      {
+        "name": "riz",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "crevettes",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "avocat",
+        "qty": 1
+      },
+      {
+        "name": "mangue"
+      },
+      {
+        "name": "sauce soja",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "sesame"
+      }
+    ],
+    "steps": [
+      "Rince le riz, cuis par absorption puis laisse tiédir.",
+      "Coupe saumon/tofu en dés, marine 10 min avec sauce soja + citron.",
+      "Prépare concombre/avocat et toppings (edamame, sésame).",
+      "Dresse: riz au fond, garnitures autour. Ajoute un filet de sauce.",
+      "Goûte et ajuste (piment, citron), sers."
+    ]
+  },
+  {
+    "slug": "quinoa-legumes-rotis",
+    "name": "Quinoa légumes rôtis",
+    "time": 30,
+    "budget": "normal",
+    "type": "plat",
+    "origin": "mediterraneenne",
+    "difficulty": "facile",
+    "tags": [
+      "Four",
+      "Healthy",
+      "Végétarien"
+    ],
+    "image": "/images/quinoa-legumes-rotis.jpg",
+    "nutrition": {
+      "calories": 473,
+      "proteines": 18,
+      "glucides": 58,
+      "lipides": 25
+    },
+    "ingredientsQty": [
+      {
+        "name": "quinoa",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "courgette",
+        "qty": 1
+      },
+      {
+        "name": "aubergine",
+        "qty": 1
+      },
+      {
+        "name": "poivron",
+        "qty": 1
+      },
+      {
+        "name": "huile d'olive",
+        "qty": 1,
+        "unit": "c.s."
+      }
+    ],
+    "steps": [
+      "Préchauffer le four (180–200 °C).",
+      "Préparer la garniture (légumes/protéine + aromates + liant).",
+      "Monter le plat, ajouter fromage/chapelure si besoin.",
+      "Enfourner jusqu’à gratiné et cuisson à cœur.",
+      "Laisser reposer 5–10 min avant de servir."
+    ]
+  },
+  {
+    "slug": "poke-bowl-crevettes",
+    "name": "Poke bowl crevettes",
+    "time": 22,
+    "budget": "plus",
+    "type": "plat",
+    "origin": "asiatique",
+    "difficulty": "facile",
+    "tags": [
+      "Cru",
+      "Healthy"
+    ],
+    "image": "/images/poke-bowl-crevettes.jpg",
+    "nutrition": {
+      "calories": 662,
+      "proteines": 39,
+      "glucides": 36,
+      "lipides": 24
+    },
+    "ingredientsQty": [
+      {
+        "name": "riz",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "crevettes",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "avocat",
+        "qty": 1
+      },
+      {
+        "name": "mangue",
+        "qty": 1
+      },
+      {
+        "name": "sauce soja",
+        "qty": 2,
+        "unit": "c.s."
+      },
+      {
+        "name": "sesame",
+        "qty": 1,
+        "unit": "c.s."
+      }
+    ],
+    "steps": [
+      "Rincer le riz, cuire par absorption puis laisser tiédir.",
+      "Décortiquer les crevettes, mariner 10 min avec sauce soja + citron.",
+      "Préparer avocat/mangue et toppings (edamame, sésame).",
+      "Dresser : riz au fond, garnitures autour. Ajouter un filet de sauce.",
+      "Goûter et ajuster (piment, citron), servir."
+    ]
+  },
+  {
+    "slug": "salade-thon-poivron",
+    "name": "Salade thon-poivron",
+    "time": 10,
+    "budget": "eco",
+    "type": "plat",
+    "origin": "mediterraneen",
+    "difficulty": "facile",
+    "tags": [
+      "Sans gluten",
+      "Cru",
+      "Healthy"
+    ],
+    "image": "/images/salade-thon-poivron.jpg",
+    "nutrition": {
+      "calories": 350,
+      "proteines": 24,
+      "glucides": 14,
+      "lipides": 22
+    },
+    "ingredientsQty": [
+      {
+        "name": "thon (boîte, égoutté)",
+        "qty": 160,
+        "unit": "g"
+      },
+      {
+        "name": "poivron",
+        "qty": 1
+      },
+      {
+        "name": "salade (mélange)",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "maïs (optionnel)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "huile d'olive",
+        "qty": 2,
+        "unit": "c.s."
+      },
+      {
+        "name": "jus de citron",
+        "qty": 1,
+        "unit": "c.s."
+      },
+      {
+        "name": "sel",
+        "qty": 1,
+        "unit": "pincée"
+      },
+      {
+        "name": "poivre",
+        "qty": 1,
+        "unit": "pincée"
+      }
+    ],
+    "steps": [
+      "Rincer la salade, égoutter.",
+      "Couper le poivron en lamelles.",
+      "Mélanger thon, poivron, salade (et maïs).",
+      "Assaisonner huile d'olive, citron, sel, poivre. Servir."
+    ]
+  },
+  {
+    "slug": "wok-thon-poivron-express",
+    "name": "Wok thon poivron express",
+    "time": 12,
+    "budget": "eco",
+    "type": "plat",
+    "origin": "fusion",
+    "difficulty": "facile",
+    "tags": [
+      "Wok",
+      "Sans gluten"
+    ],
+    "image": "/images/wok-thon-poivron.jpg",
+    "nutrition": {
+      "calories": 380,
+      "proteines": 32,
+      "glucides": 12,
+      "lipides": 22
+    },
+    "ingredientsQty": [
+      {
+        "name": "thon (boîte, égoutté)",
+        "qty": 160,
+        "unit": "g"
+      },
+      {
+        "name": "poivron",
+        "qty": 1
+      },
+      {
+        "name": "oignon",
+        "qty": 0.5
+      },
+      {
+        "name": "sauce soja sans gluten",
+        "qty": 2,
+        "unit": "c.s."
+      },
+      {
+        "name": "huile neutre",
+        "qty": 1,
+        "unit": "c.s."
+      }
+    ],
+    "steps": [
+      "Émincer oignon et poivron.",
+      "Chauffer l’huile dans un wok, sauter l’oignon 1 min puis le poivron 3–4 min.",
+      "Ajouter le thon émietté, napper de sauce soja sans gluten, mélanger 1 min et servir."
+    ]
+  },
+  {
+    "slug": "pates-sans-gluten-pesto-20min",
+    "name": "Pâtes sans gluten au pesto (20 min)",
+    "time": 20,
+    "budget": "eco",
+    "type": "plat",
+    "origin": "italien",
+    "difficulty": "facile",
+    "tags": [
+      "Sans gluten"
+    ],
+    "image": "/images/pates-sg-pesto.jpg",
+    "nutrition": {
+      "calories": 520,
+      "proteines": 14,
+      "glucides": 82,
+      "lipides": 14
+    },
+    "ingredientsQty": [
+      {
+        "name": "pâtes sans gluten",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "pesto (sans lactose si besoin)",
+        "qty": 3,
+        "unit": "c.s."
+      },
+      {
+        "name": "sel",
+        "qty": 1,
+        "unit": "pincée"
+      }
+    ],
+    "steps": [
+      "Cuire les pâtes sans gluten dans une grande casserole d’eau salée selon le temps indiqué.",
+      "Égoutter en gardant 2 c.s. d’eau de cuisson.",
+      "Mélanger avec le pesto (et un peu d’eau de cuisson). Ajuster et servir."
+    ]
+  }
+]

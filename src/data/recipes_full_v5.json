@@ -1,0 +1,543 @@
+[
+  {
+    "slug": "pates-carbonara-authentique",
+    "name": "Pâtes à la carbonara authentique",
+    "time": 20,
+    "budget": "eco",
+    "type": "plat",
+    "origin": "italienne",
+    "difficulty": "facile",
+    "tags": ["Rapide"],
+    "image": "/images/pates-carbonara.jpg",
+    "servings": 2,
+    "nutrition": {
+      "calories": 520,
+      "proteines": 24,
+      "glucides": 68,
+      "lipides": 16
+    },
+    "ingredientsQty": [
+      { "name": "spaghetti", "qty": 200, "unit": "g" },
+      { "name": "guanciale ou lardons", "qty": 120, "unit": "g" },
+      { "name": "œufs", "qty": 2, "unit": "" },
+      { "name": "parmesan râpé", "qty": 50, "unit": "g" },
+      { "name": "poivre noir", "qty": 1, "unit": "c.à.c." },
+      { "name": "sel", "qty": 1, "unit": "pincée" }
+    ],
+    "steps": [
+      "Porter à ébullition une grande casserole d'eau salée. Cuire les pâtes al dente selon le temps indiqué sur le paquet.",
+      "Pendant ce temps, faire revenir les lardons à sec dans une poêle chaude 4-5 min jusqu'à ce qu'ils soient dorés et croustillants. Réserver hors du feu.",
+      "Dans un bol, battre les œufs avec le parmesan râpé et une bonne dose de poivre noir moulu. Mélanger jusqu'à obtenir une crème homogène.",
+      "Égoutter les pâtes en gardant 1 tasse (environ 200 ml) d'eau de cuisson. Verser les pâtes chaudes dans la poêle avec les lardons (hors du feu).",
+      "Ajouter immédiatement le mélange œufs-parmesan et mélanger vigoureusement. Ajouter l'eau de cuisson petit à petit jusqu'à obtenir une sauce crémeuse et onctueuse (pas d'œufs brouillés !). Poivrer généreusement et servir aussitôt."
+    ]
+  },
+  {
+    "slug": "curry-lentilles-corail",
+    "name": "Curry de lentilles corail",
+    "time": 25,
+    "budget": "eco",
+    "type": "plat",
+    "origin": "indienne",
+    "difficulty": "facile",
+    "tags": ["Healthy", "Végétarien", "Sans gluten"],
+    "image": "/images/curry-lentilles.jpg",
+    "servings": 2,
+    "nutrition": {
+      "calories": 380,
+      "proteines": 18,
+      "glucides": 52,
+      "lipides": 10
+    },
+    "ingredientsQty": [
+      { "name": "lentilles corail", "qty": 150, "unit": "g" },
+      { "name": "lait de coco", "qty": 200, "unit": "ml" },
+      { "name": "tomates concassées", "qty": 200, "unit": "g" },
+      { "name": "oignon", "qty": 1, "unit": "" },
+      { "name": "ail", "qty": 2, "unit": "gousses" },
+      { "name": "gingembre frais", "qty": 10, "unit": "g" },
+      { "name": "curry en poudre", "qty": 2, "unit": "c.à.c." },
+      { "name": "cumin", "qty": 1, "unit": "c.à.c." },
+      { "name": "huile d'olive", "qty": 2, "unit": "c.à.s." },
+      { "name": "sel", "qty": 1, "unit": "pincée" },
+      { "name": "coriandre fraîche", "qty": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Rincer les lentilles corail à l'eau froide dans une passoire jusqu'à ce que l'eau soit claire. Réserver.",
+      "Éplucher et émincer finement l'oignon, l'ail et le gingembre. Dans une grande casserole, faire chauffer l'huile d'olive à feu moyen.",
+      "Faire revenir l'oignon 3 min jusqu'à ce qu'il soit translucide. Ajouter l'ail et le gingembre, cuire 1 min en remuant.",
+      "Ajouter le curry et le cumin, faire griller les épices 30 secondes. Verser les tomates concassées, le lait de coco et 200 ml d'eau. Porter à ébullition.",
+      "Ajouter les lentilles rincées, baisser le feu et laisser mijoter à couvert 15-18 min en remuant de temps en temps, jusqu'à ce que les lentilles soient fondantes. Saler, garnir de coriandre fraîche ciselée. Servir avec du riz basmati ou du naan."
+    ]
+  },
+  {
+    "slug": "saumon-four-citron",
+    "name": "Saumon au four citron-aneth",
+    "time": 22,
+    "budget": "plus",
+    "type": "plat",
+    "origin": "nordique",
+    "difficulty": "facile",
+    "tags": ["Four", "Healthy", "Sans gluten"],
+    "image": "/images/saumon-four.jpg",
+    "servings": 2,
+    "nutrition": {
+      "calories": 340,
+      "proteines": 32,
+      "glucides": 4,
+      "lipides": 22
+    },
+    "ingredientsQty": [
+      { "name": "filets de saumon", "qty": 300, "unit": "g" },
+      { "name": "citron", "qty": 1, "unit": "" },
+      { "name": "aneth frais", "qty": 10, "unit": "g" },
+      { "name": "huile d'olive", "qty": 2, "unit": "c.à.s." },
+      { "name": "sel", "qty": 1, "unit": "pincée" },
+      { "name": "poivre", "qty": 1, "unit": "pincée" }
+    ],
+    "steps": [
+      "Préchauffer le four à 180°C (chaleur tournante). Tapisser une plaque de cuisson de papier sulfurisé.",
+      "Rincer les filets de saumon à l'eau froide et sécher avec du papier absorbant. Les déposer sur la plaque, côté peau en dessous.",
+      "Arroser d'huile d'olive, saler et poivrer généreusement. Couper le citron en fines rondelles et en disposer 2-3 sur chaque filet.",
+      "Ciseler l'aneth frais et en parsemer généreusement sur le poisson. Enfourner 12-15 min selon l'épaisseur des filets (la chair doit être tout juste opaque au centre).",
+      "Servir immédiatement avec des légumes vapeur (haricots verts, brocolis) ou une salade verte. Arroser du jus de citron restant au moment de servir."
+    ]
+  },
+  {
+    "slug": "tacos-poulet-epices",
+    "name": "Tacos de poulet épicé",
+    "time": 25,
+    "budget": "normal",
+    "type": "plat",
+    "origin": "mexicaine",
+    "difficulty": "facile",
+    "tags": ["Poêle"],
+    "image": "/images/tacos-poulet.jpg",
+    "servings": 2,
+    "nutrition": {
+      "calories": 480,
+      "proteines": 38,
+      "glucides": 45,
+      "lipides": 14
+    },
+    "ingredientsQty": [
+      { "name": "tortillas de maïs", "qty": 6, "unit": "" },
+      { "name": "blancs de poulet", "qty": 300, "unit": "g" },
+      { "name": "paprika fumé", "qty": 1, "unit": "c.à.c." },
+      { "name": "cumin", "qty": 1, "unit": "c.à.c." },
+      { "name": "oignon rouge", "qty": 1, "unit": "" },
+      { "name": "tomate", "qty": 1, "unit": "" },
+      { "name": "salade verte", "qty": 50, "unit": "g" },
+      { "name": "yaourt grec", "qty": 100, "unit": "g" },
+      { "name": "jus de citron vert", "qty": 1, "unit": "c.à.s." },
+      { "name": "huile d'olive", "qty": 2, "unit": "c.à.s." },
+      { "name": "sel", "qty": 1, "unit": "pincée" }
+    ],
+    "steps": [
+      "Couper les blancs de poulet en fines lanières. Dans un bol, mélanger avec le paprika fumé, le cumin, 1 c.à.s. d'huile, le sel et le jus de citron vert. Laisser mariner 10 min.",
+      "Pendant ce temps, émincer finement l'oignon rouge, couper la tomate en petits dés, laver et ciseler la salade. Préparer la sauce : mélanger le yaourt grec avec une pincée de sel et un peu de jus de citron.",
+      "Dans une poêle chaude avec 1 c.à.s. d'huile, faire cuire les lanières de poulet à feu vif 5-6 min en remuant régulièrement, jusqu'à ce qu'elles soient bien dorées et cuites à cœur.",
+      "Réchauffer les tortillas 30 secondes au micro-ondes ou à sec dans une poêle pour les rendre souples.",
+      "Garnir chaque tortilla de salade, poulet épicé, oignon rouge, tomate et une généreuse cuillère de sauce au yaourt. Plier et déguster immédiatement."
+    ]
+  },
+  {
+    "slug": "omelette-champignons-fromage",
+    "name": "Omelette champignons-emmental",
+    "time": 12,
+    "budget": "eco",
+    "type": "plat",
+    "origin": "française",
+    "difficulty": "facile",
+    "tags": ["Poêle", "Rapide", "Végétarien"],
+    "image": "/images/omelette.jpg",
+    "servings": 2,
+    "nutrition": {
+      "calories": 320,
+      "proteines": 22,
+      "glucides": 3,
+      "lipides": 24
+    },
+    "ingredientsQty": [
+      { "name": "œufs", "qty": 4, "unit": "" },
+      { "name": "champignons de Paris", "qty": 150, "unit": "g" },
+      { "name": "emmental râpé", "qty": 50, "unit": "g" },
+      { "name": "beurre", "qty": 20, "unit": "g" },
+      { "name": "sel", "qty": 1, "unit": "pincée" },
+      { "name": "poivre", "qty": 1, "unit": "pincée" },
+      { "name": "ciboulette", "qty": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Nettoyer les champignons avec un papier humide, les émincer finement. Dans une poêle, faire fondre la moitié du beurre à feu moyen et faire revenir les champignons 5-6 min jusqu'à ce qu'ils aient rendu leur eau et soient légèrement dorés. Saler, poivrer. Réserver au chaud.",
+      "Dans un bol, battre les œufs à la fourchette avec une pincée de sel et de poivre jusqu'à ce que le mélange soit homogène et mousseux.",
+      "Dans la même poêle nettoyée, faire fondre le reste du beurre à feu moyen-vif. Verser les œufs battus et laisser prendre 30 secondes sans toucher.",
+      "Avec une spatule, ramener délicatement les bords cuits vers le centre en inclinant la poêle pour que l'œuf encore liquide s'écoule. Répéter 2-3 fois.",
+      "Quand l'omelette est encore légèrement baveuse sur le dessus, répartir les champignons et le fromage râpé sur une moitié. Plier l'omelette en deux avec la spatule. Laisser 30 secondes pour que le fromage fonde. Parsemer de ciboulette ciselée et servir immédiatement."
+    ]
+  },
+  {
+    "slug": "buddha-bowl-quinoa",
+    "name": "Buddha bowl quinoa avocat",
+    "time": 20,
+    "budget": "normal",
+    "type": "plat",
+    "origin": "fusion",
+    "difficulty": "facile",
+    "tags": ["Healthy", "Végétarien", "Sans gluten"],
+    "image": "/images/buddha-bowl.jpg",
+    "servings": 2,
+    "nutrition": {
+      "calories": 420,
+      "proteines": 16,
+      "glucides": 48,
+      "lipides": 18
+    },
+    "ingredientsQty": [
+      { "name": "quinoa", "qty": 150, "unit": "g" },
+      { "name": "pois chiches cuits", "qty": 200, "unit": "g" },
+      { "name": "avocat", "qty": 1, "unit": "" },
+      { "name": "tomates cerises", "qty": 100, "unit": "g" },
+      { "name": "concombre", "qty": 0.5, "unit": "" },
+      { "name": "graines de sésame", "qty": 10, "unit": "g" },
+      { "name": "huile d'olive", "qty": 3, "unit": "c.à.s." },
+      { "name": "jus de citron", "qty": 2, "unit": "c.à.s." },
+      { "name": "sel", "qty": 1, "unit": "pincée" },
+      { "name": "poivre", "qty": 1, "unit": "pincée" }
+    ],
+    "steps": [
+      "Rincer le quinoa à l'eau froide dans une passoire. Le cuire dans 300 ml d'eau bouillante salée à couvert pendant 12-15 min jusqu'à absorption complète. Égrainer à la fourchette et laisser tiédir.",
+      "Couper l'avocat en deux, retirer le noyau et le couper en tranches. Couper les tomates cerises en deux et le concombre en demi-rondelles.",
+      "Si les pois chiches sont en conserve, les rincer et les égoutter. Les faire revenir 3-4 min dans une poêle avec 1 c.à.s. d'huile d'olive pour les rendre légèrement croustillants (optionnel).",
+      "Préparer la vinaigrette : dans un petit bol, mélanger 2 c.à.s. d'huile d'olive, le jus de citron, sel et poivre.",
+      "Dans deux bols, dresser le quinoa en base, disposer harmonieusement les pois chiches, avocat, tomates et concombre en sections. Arroser de vinaigrette, parsemer de graines de sésame et servir."
+    ]
+  },
+  {
+    "slug": "veloute-courgette",
+    "name": "Velouté de courgette au chèvre frais",
+    "time": 25,
+    "budget": "eco",
+    "type": "soupe",
+    "origin": "française",
+    "difficulty": "facile",
+    "tags": ["Mixeur", "Healthy", "Végétarien"],
+    "image": "/images/veloute-courgette.jpg",
+    "servings": 2,
+    "nutrition": {
+      "calories": 180,
+      "proteines": 8,
+      "glucides": 12,
+      "lipides": 10
+    },
+    "ingredientsQty": [
+      { "name": "courgettes", "qty": 400, "unit": "g" },
+      { "name": "oignon", "qty": 1, "unit": "" },
+      { "name": "bouillon de légumes", "qty": 500, "unit": "ml" },
+      { "name": "fromage de chèvre frais", "qty": 50, "unit": "g" },
+      { "name": "huile d'olive", "qty": 1, "unit": "c.à.s." },
+      { "name": "sel", "qty": 1, "unit": "pincée" },
+      { "name": "poivre", "qty": 1, "unit": "pincée" }
+    ],
+    "steps": [
+      "Laver et couper les courgettes en rondelles (inutile de les éplucher). Éplucher et émincer l'oignon.",
+      "Dans une grande casserole, faire chauffer l'huile d'olive à feu moyen. Faire suer l'oignon 3 min jusqu'à ce qu'il soit translucide sans colorer.",
+      "Ajouter les courgettes, mélanger et cuire 2 min. Verser le bouillon de légumes, porter à ébullition puis baisser le feu et laisser mijoter à couvert 15 min jusqu'à ce que les courgettes soient bien tendres.",
+      "Retirer du feu et mixer finement au mixeur plongeant jusqu'à obtenir une texture lisse et veloutée. Saler et poivrer selon le goût.",
+      "Servir dans des bols, ajouter une cuillère de fromage de chèvre frais au centre de chaque portion et un filet d'huile d'olive. Déguster chaud avec du pain croustillant."
+    ]
+  },
+  {
+    "slug": "poke-bowl-saumon",
+    "name": "Poke bowl saumon mariné",
+    "time": 25,
+    "budget": "plus",
+    "type": "plat",
+    "origin": "hawaienne",
+    "difficulty": "facile",
+    "tags": ["Cru", "Healthy", "Sans gluten"],
+    "image": "/images/poke-bowl.jpg",
+    "servings": 2,
+    "nutrition": {
+      "calories": 520,
+      "proteines": 32,
+      "glucides": 58,
+      "lipides": 16
+    },
+    "ingredientsQty": [
+      { "name": "riz sushi", "qty": 160, "unit": "g" },
+      { "name": "saumon frais (qualité sashimi)", "qty": 250, "unit": "g" },
+      { "name": "avocat", "qty": 1, "unit": "" },
+      { "name": "concombre", "qty": 0.5, "unit": "" },
+      { "name": "edamame écossés", "qty": 80, "unit": "g" },
+      { "name": "sauce soja", "qty": 3, "unit": "c.à.s." },
+      { "name": "huile de sésame", "qty": 1, "unit": "c.à.c." },
+      { "name": "graines de sésame", "qty": 10, "unit": "g" },
+      { "name": "oignons verts", "qty": 2, "unit": "tiges" },
+      { "name": "jus de citron", "qty": 1, "unit": "c.à.s." }
+    ],
+    "steps": [
+      "Rincer le riz plusieurs fois jusqu'à ce que l'eau soit claire. Le cuire selon les instructions du paquet (généralement 12-15 min dans 320 ml d'eau). Laisser tiédir à couvert.",
+      "Couper le saumon frais en cubes réguliers de 1,5 cm. Dans un bol, mélanger 2 c.à.s. de sauce soja, l'huile de sésame et le jus de citron. Ajouter le saumon et laisser mariner 10-15 min au frais.",
+      "Couper l'avocat en tranches, le concombre en demi-rondelles. Émincer finement les oignons verts. Cuire les edamame 3 min dans l'eau bouillante salée si congelés.",
+      "Répartir le riz tiède dans deux bols. Disposer harmonieusement en sections : saumon mariné, avocat, concombre, edamame.",
+      "Arroser avec le reste de marinade et 1 c.à.s. de sauce soja. Parsemer de graines de sésame et d'oignons verts. Servir immédiatement."
+    ]
+  },
+  {
+    "slug": "risotto-champignons",
+    "name": "Risotto aux champignons",
+    "time": 35,
+    "budget": "normal",
+    "type": "plat",
+    "origin": "italienne",
+    "difficulty": "moyen",
+    "tags": ["Végétarien", "Sans gluten"],
+    "image": "/images/risotto.jpg",
+    "servings": 2,
+    "nutrition": {
+      "calories": 480,
+      "proteines": 14,
+      "glucides": 72,
+      "lipides": 14
+    },
+    "ingredientsQty": [
+      { "name": "riz arborio", "qty": 180, "unit": "g" },
+      { "name": "champignons de Paris", "qty": 200, "unit": "g" },
+      { "name": "bouillon de légumes chaud", "qty": 800, "unit": "ml" },
+      { "name": "parmesan râpé", "qty": 50, "unit": "g" },
+      { "name": "oignon", "qty": 1, "unit": "" },
+      { "name": "vin blanc sec", "qty": 100, "unit": "ml" },
+      { "name": "beurre", "qty": 30, "unit": "g" },
+      { "name": "huile d'olive", "qty": 2, "unit": "c.à.s." },
+      { "name": "sel", "qty": 1, "unit": "pincée" },
+      { "name": "poivre", "qty": 1, "unit": "pincée" }
+    ],
+    "steps": [
+      "Faire chauffer le bouillon de légumes dans une casserole et le maintenir à frémissement. Émincer finement l'oignon et nettoyer les champignons en les coupant en lamelles.",
+      "Dans une grande poêle ou sauteuse, faire chauffer 1 c.à.s. d'huile d'olive et 10 g de beurre. Faire revenir l'oignon émincé 3 min à feu moyen jusqu'à transparence.",
+      "Ajouter le riz arborio et le nacrer 2 min en remuant constamment (les grains doivent devenir translucides sur les bords). Verser le vin blanc et laisser évaporer complètement en remuant.",
+      "Commencer à ajouter le bouillon chaud louche par louche (environ 150 ml à la fois), en attendant que chaque louche soit absorbée avant d'ajouter la suivante. Remuer régulièrement pendant 18-20 min. Pendant ce temps, faire sauter les champignons à feu vif dans une poêle avec 1 c.à.s. d'huile pendant 5-6 min. Saler, poivrer.",
+      "Quand le riz est cuit al dente et crémeux, retirer du feu. Incorporer les champignons sautés, le reste du beurre et le parmesan. Mélanger énergiquement 1 min (mantecatura). Laisser reposer 1 min à couvert. Servir immédiatement avec un tour de moulin à poivre et du parmesan supplémentaire."
+    ]
+  },
+  {
+    "slug": "poulet-curry-coco",
+    "name": "Poulet au curry et lait de coco",
+    "time": 30,
+    "budget": "normal",
+    "type": "plat",
+    "origin": "thaïlandaise",
+    "difficulty": "facile",
+    "tags": ["Sans gluten"],
+    "image": "/images/poulet-curry.jpg",
+    "servings": 2,
+    "nutrition": {
+      "calories": 450,
+      "proteines": 36,
+      "glucides": 12,
+      "lipides": 28
+    },
+    "ingredientsQty": [
+      { "name": "blancs de poulet", "qty": 350, "unit": "g" },
+      { "name": "lait de coco", "qty": 400, "unit": "ml" },
+      { "name": "pâte de curry rouge", "qty": 2, "unit": "c.à.s." },
+      { "name": "poivron rouge", "qty": 1, "unit": "" },
+      { "name": "oignon", "qty": 1, "unit": "" },
+      { "name": "ail", "qty": 2, "unit": "gousses" },
+      { "name": "sauce soja", "qty": 1, "unit": "c.à.s." },
+      { "name": "sucre de canne", "qty": 1, "unit": "c.à.c." },
+      { "name": "jus de citron vert", "qty": 1, "unit": "c.à.s." },
+      { "name": "huile de coco", "qty": 1, "unit": "c.à.s." },
+      { "name": "basilic thaï ou coriandre", "qty": 10, "unit": "g" }
+    ],
+    "steps": [
+      "Couper les blancs de poulet en morceaux de 3 cm. Émincer l'oignon, hacher finement l'ail, couper le poivron en lanières.",
+      "Dans une grande poêle ou wok, faire chauffer l'huile de coco à feu moyen-vif. Faire revenir l'oignon et l'ail 2 min.",
+      "Ajouter la pâte de curry rouge et faire griller 1 min en remuant pour libérer les arômes. Ajouter les morceaux de poulet et les faire dorer 3-4 min de tous les côtés.",
+      "Verser le lait de coco, ajouter le poivron, la sauce soja et le sucre. Porter à ébullition puis baisser le feu et laisser mijoter 12-15 min jusqu'à ce que le poulet soit bien cuit et la sauce légèrement réduite.",
+      "Ajouter le jus de citron vert, goûter et ajuster l'assaisonnement. Parsemer de basilic thaï ou coriandre ciselée. Servir avec du riz jasmin."
+    ]
+  },
+  {
+    "slug": "quiche-lorraine",
+    "name": "Quiche lorraine classique",
+    "time": 50,
+    "budget": "normal",
+    "type": "plat",
+    "origin": "française",
+    "difficulty": "moyen",
+    "tags": ["Four"],
+    "image": "/images/quiche-lorraine.jpg",
+    "servings": 4,
+    "nutrition": {
+      "calories": 420,
+      "proteines": 18,
+      "glucides": 28,
+      "lipides": 26
+    },
+    "ingredientsQty": [
+      { "name": "pâte brisée", "qty": 1, "unit": "rouleau" },
+      { "name": "lardons fumés", "qty": 200, "unit": "g" },
+      { "name": "œufs", "qty": 3, "unit": "" },
+      { "name": "crème fraîche épaisse", "qty": 200, "unit": "ml" },
+      { "name": "lait entier", "qty": 100, "unit": "ml" },
+      { "name": "gruyère râpé", "qty": 80, "unit": "g" },
+      { "name": "noix de muscade", "qty": 1, "unit": "pincée" },
+      { "name": "sel", "qty": 1, "unit": "pincée" },
+      { "name": "poivre", "qty": 1, "unit": "pincée" }
+    ],
+    "steps": [
+      "Préchauffer le four à 190°C (chaleur tournante). Dérouler la pâte brisée dans un moule à tarte de 26 cm de diamètre. Piquer le fond à la fourchette.",
+      "Faire revenir les lardons à sec dans une poêle à feu moyen 4-5 min jusqu'à ce qu'ils soient légèrement dorés. Égoutter sur du papier absorbant pour retirer l'excès de gras.",
+      "Dans un saladier, battre les œufs en omelette. Ajouter la crème fraîche et le lait, bien mélanger. Saler très légèrement (les lardons sont déjà salés), poivrer et ajouter une pointe de muscade râpée.",
+      "Répartir les lardons sur le fond de tarte, saupoudrer la moitié du gruyère râpé. Verser l'appareil à quiche (mélange œufs-crème) en veillant à ne pas remplir à ras bord. Parsemer du reste de gruyère.",
+      "Enfourner 35-40 min jusqu'à ce que la quiche soit dorée et gonflée. Laisser tiédir 10 min avant de démouler et servir. Accompagner d'une salade verte."
+    ]
+  },
+  {
+    "slug": "salade-cesar",
+    "name": "Salade César au poulet grillé",
+    "time": 20,
+    "budget": "normal",
+    "type": "plat",
+    "origin": "américaine",
+    "difficulty": "facile",
+    "tags": ["Healthy", "Poêle"],
+    "image": "/images/salade-cesar.jpg",
+    "servings": 2,
+    "nutrition": {
+      "calories": 420,
+      "proteines": 34,
+      "glucides": 22,
+      "lipides": 22
+    },
+    "ingredientsQty": [
+      { "name": "laitue romaine", "qty": 200, "unit": "g" },
+      { "name": "blancs de poulet", "qty": 250, "unit": "g" },
+      { "name": "parmesan", "qty": 40, "unit": "g" },
+      { "name": "croûtons", "qty": 50, "unit": "g" },
+      { "name": "yaourt grec", "qty": 80, "unit": "g" },
+      { "name": "mayonnaise", "qty": 2, "unit": "c.à.s." },
+      { "name": "ail", "qty": 1, "unit": "gousse" },
+      { "name": "jus de citron", "qty": 1, "unit": "c.à.s." },
+      { "name": "moutarde de Dijon", "qty": 1, "unit": "c.à.c." },
+      { "name": "huile d'olive", "qty": 2, "unit": "c.à.s." },
+      { "name": "sel", "qty": 1, "unit": "pincée" },
+      { "name": "poivre", "qty": 1, "unit": "pincée" }
+    ],
+    "steps": [
+      "Laver et essorer la laitue romaine, la couper en lanières. Réserver au frais.",
+      "Aplatir légèrement les blancs de poulet entre deux feuilles de film alimentaire pour une cuisson uniforme. Saler, poivrer. Les faire griller dans une poêle chaude avec 1 c.à.s. d'huile 5-6 min de chaque côté jusqu'à ce qu'ils soient bien dorés et cuits à cœur. Laisser reposer 3 min puis trancher en lamelles.",
+      "Préparer la sauce César : dans un bol, mélanger le yaourt grec, la mayonnaise, l'ail pressé, le jus de citron, la moutarde et 20 g de parmesan râpé. Fouetter jusqu'à obtenir une sauce lisse. Goûter et ajuster l'assaisonnement.",
+      "Si vous faites vos croûtons maison : couper du pain en cubes, les faire dorer dans une poêle avec 1 c.à.s. d'huile d'olive et une pincée d'ail en poudre 3-4 min.",
+      "Dans un grand saladier, mélanger la laitue avec la moitié de la sauce César. Répartir dans deux assiettes, disposer les lamelles de poulet, parsemer de croûtons et du reste de parmesan en copeaux. Arroser du reste de sauce. Poivrer généreusement et servir."
+    ]
+  },
+  {
+    "slug": "wraps-thon-avocat",
+    "name": "Wraps thon-avocat express",
+    "time": 10,
+    "budget": "eco",
+    "type": "plat",
+    "origin": "fusion",
+    "difficulty": "facile",
+    "tags": ["Rapide", "Sans cuisson"],
+    "image": "/images/wraps-thon.jpg",
+    "servings": 2,
+    "nutrition": {
+      "calories": 380,
+      "proteines": 28,
+      "glucides": 38,
+      "lipides": 12
+    },
+    "ingredientsQty": [
+      { "name": "tortillas de blé", "qty": 2, "unit": "" },
+      { "name": "thon au naturel égoutté", "qty": 160, "unit": "g" },
+      { "name": "avocat", "qty": 1, "unit": "" },
+      { "name": "maïs égoutté", "qty": 80, "unit": "g" },
+      { "name": "salade verte", "qty": 50, "unit": "g" },
+      { "name": "tomate", "qty": 1, "unit": "" },
+      { "name": "yaourt grec", "qty": 60, "unit": "g" },
+      { "name": "jus de citron", "qty": 1, "unit": "c.à.s." },
+      { "name": "sel", "qty": 1, "unit": "pincée" },
+      { "name": "poivre", "qty": 1, "unit": "pincée" }
+    ],
+    "steps": [
+      "Égoutter soigneusement le thon et le maïs. Écraser l'avocat à la fourchette avec le jus de citron, sel et poivre.",
+      "Laver et essorer la salade. Couper la tomate en petits dés.",
+      "Mélanger dans un bol le thon égoutté avec le yaourt grec, une pincée de sel et de poivre.",
+      "Réchauffer légèrement les tortillas 20 secondes au micro-ondes pour les rendre souples.",
+      "Sur chaque tortilla, étaler la purée d'avocat, ajouter la salade, le mélange thon-yaourt, le maïs et les dés de tomate. Rouler fermement les tortillas en repliant les bords. Couper en deux en diagonale et servir immédiatement."
+    ]
+  },
+  {
+    "slug": "pates-pesto-tomates-cerises",
+    "name": "Pâtes au pesto et tomates cerises rôties",
+    "time": 18,
+    "budget": "normal",
+    "type": "plat",
+    "origin": "italienne",
+    "difficulty": "facile",
+    "tags": ["Rapide", "Végétarien"],
+    "image": "/images/pates-pesto.jpg",
+    "servings": 2,
+    "nutrition": {
+      "calories": 480,
+      "proteines": 16,
+      "glucides": 66,
+      "lipides": 18
+    },
+    "ingredientsQty": [
+      { "name": "penne ou fusilli", "qty": 200, "unit": "g" },
+      { "name": "pesto au basilic", "qty": 80, "unit": "g" },
+      { "name": "tomates cerises", "qty": 200, "unit": "g" },
+      { "name": "parmesan râpé", "qty": 30, "unit": "g" },
+      { "name": "pignons de pin", "qty": 20, "unit": "g" },
+      { "name": "huile d'olive", "qty": 2, "unit": "c.à.s." },
+      { "name": "sel", "qty": 1, "unit": "pincée" },
+      { "name": "poivre", "qty": 1, "unit": "pincée" }
+    ],
+    "steps": [
+      "Préchauffer le four à 200°C. Couper les tomates cerises en deux, les disposer sur une plaque recouverte de papier sulfurisé. Arroser de 1 c.à.s. d'huile d'olive, saler, poivrer. Enfourner 10-12 min jusqu'à ce qu'elles soient légèrement caramélisées.",
+      "Pendant ce temps, cuire les pâtes dans une grande casserole d'eau bouillante salée selon le temps indiqué sur le paquet. Égoutter en gardant 100 ml d'eau de cuisson.",
+      "Dans une poêle, faire griller à sec les pignons de pin 2-3 min à feu moyen en remuant constamment jusqu'à ce qu'ils soient légèrement dorés. Attention, ils brûlent vite !",
+      "Remettre les pâtes égouttées dans la casserole hors du feu. Ajouter le pesto et mélanger. Ajouter progressivement l'eau de cuisson réservée pour détendre la sauce jusqu'à obtenir une consistance crémeuse.",
+      "Incorporer délicatement les tomates rôties, mélanger. Servir dans des assiettes creuses, parsemer de parmesan râpé et de pignons grillés. Ajouter un filet d'huile d'olive et un tour de moulin à poivre."
+    ]
+  },
+  {
+    "slug": "smoothie-bowl-banane-myrtilles",
+    "name": "Smoothie bowl banane-myrtilles",
+    "time": 8,
+    "budget": "normal",
+    "type": "petit-dej",
+    "origin": "healthy",
+    "difficulty": "facile",
+    "tags": ["Healthy", "Végétarien", "Sans gluten", "Mixeur"],
+    "image": "/images/smoothie-bowl.jpg",
+    "servings": 1,
+    "nutrition": {
+      "calories": 320,
+      "proteines": 12,
+      "glucides": 56,
+      "lipides": 6
+    },
+    "ingredientsQty": [
+      { "name": "bananes congelées", "qty": 2, "unit": "" },
+      { "name": "myrtilles congelées", "qty": 80, "unit": "g" },
+      { "name": "yaourt grec", "qty": 100, "unit": "g" },
+      { "name": "lait d'amande", "qty": 80, "unit": "ml" },
+      { "name": "granola", "qty": 30, "unit": "g" },
+      { "name": "fruits frais variés", "qty": 50, "unit": "g" },
+      { "name": "graines de chia", "qty": 1, "unit": "c.à.c." },
+      { "name": "miel", "qty": 1, "unit": "c.à.c." }
+    ],
+    "steps": [
+      "Couper les bananes congelées en rondelles pour faciliter le mixage.",
+      "Dans un blender puissant, mettre les bananes congelées, les myrtilles, le yaourt grec et le lait d'amande. Mixer à vitesse maximale 1-2 min jusqu'à obtenir une texture épaisse et lisse (comme une glace à l'italienne). Si le mélange est trop épais, ajouter un peu de lait. Si trop liquide, ajouter quelques glaçons.",
+      "Verser le smoothie dans un bol.",
+      "Disposer harmonieusement les toppings : granola d'un côté, fruits frais coupés (fraises, banane, kiwi) de l'autre, saupoudrer de graines de chia.",
+      "Arroser d'un filet de miel. Déguster immédiatement à la cuillère."
+    ]
+  }
+]

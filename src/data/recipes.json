@@ -2,12 +2,18 @@
   {
     "slug": "carbo-express",
     "name": "Pâtes carbonara express",
-    "ingredients": ["pâtes", "œufs", "lardons", "parmesan", "poivre"],
+    "ingredients": [
+      { "name": "pâtes (spaghetti ou penne)", "qty": 250, "unit": "g" },
+      { "name": "lardons fumés", "qty": 120, "unit": "g" },
+      { "name": "œufs", "qty": 2, "unit": "" },
+      { "name": "parmesan râpé", "qty": 40, "unit": "g" },
+      { "name": "poivre", "qty": 1, "unit": "pincée" }
+    ],
     "steps": [
-      "Cuire les pâtes.",
-      "Dorer les lardons.",
-      "Mélanger œufs + parmesan.",
-      "Hors feu, lier avec les pâtes + lardons, poivrer."
+      "Fais chauffer une grande casserole d’eau bien salée et plonge les pâtes pour une cuisson al dente (vérifie 1 min avant l’indication du paquet). Pendant ce temps, mets les lardons dans une poêle froide puis allume à feu moyen : ils vont rendre leur gras et dorer doucement.",
+      "Dans un bol, bats les œufs avec le parmesan râpé et une belle pincée de poivre. Pas besoin de sel : les lardons et le fromage s’en chargent.",
+      "Égoutte les pâtes en gardant une petite louche d’eau de cuisson. Verse immédiatement les pâtes fumantes dans la poêle avec les lardons, coupe le feu pour éviter de coaguler les œufs trop vite.",
+      "Ajoute le mélange œufs–parmesan et remue énergiquement pour enrober. Allonge avec un peu d’eau de cuisson jusqu’à obtenir une sauce onctueuse qui nappe bien. Poivre au moulin et sers sans attendre."
     ],
     "time": 15,
     "budget": "éco",
@@ -16,11 +22,19 @@
   {
     "slug": "omelette-tomate-fromage",
     "name": "Omelette tomate-fromage",
-    "ingredients": ["œufs", "tomates", "fromage", "sel", "poivre"],
+    "ingredients": [
+      { "name": "œufs", "qty": 4, "unit": "" },
+      { "name": "tomate", "qty": 1, "unit": "" },
+      { "name": "fromage râpé (emmental/comté)", "qty": 60, "unit": "g" },
+      { "name": "sel", "qty": 1, "unit": "pincée" },
+      { "name": "poivre", "qty": 1, "unit": "pincée" },
+      { "name": "huile d'olive", "qty": 1, "unit": "c. à s." }
+    ],
     "steps": [
-      "Battre les œufs, saler/poivrer.",
-      "Saisir tomates en dés.",
-      "Verser les œufs, ajouter fromage, plier."
+      "Casse les œufs dans un bol, ajoute une pincée de sel et de poivre puis bats-les à la fourchette jusqu’à ce qu’ils moussent légèrement. Coupe la tomate en petits dés et égoutte pour limiter l’eau.",
+      "Fais chauffer une petite poêle anti-adhésive avec un filet d’huile d’olive à feu moyen. Verse les œufs battus et incline la poêle pour bien répartir.",
+      "Parseme rapidement les dés de tomate puis le fromage râpé. Laisse prendre 1 à 2 min : le dessous doit être doré et le dessus encore légèrement baveux.",
+      "Replie délicatement l’omelette en deux à la spatule. Prolonge 30 s si tu la préfères plus prise, puis sers aussitôt."
     ],
     "time": 10,
     "budget": "éco",
@@ -29,24 +43,39 @@
   {
     "slug": "riz-saute-poulet",
     "name": "Riz sauté au poulet",
-    "ingredients": ["riz", "poulet", "oignon", "sauce soja", "huile"],
+    "ingredients": [
+      { "name": "riz", "qty": 180, "unit": "g" },
+      { "name": "blanc de poulet", "qty": 250, "unit": "g" },
+      { "name": "oignon", "qty": 1, "unit": "" },
+      { "name": "sauce soja", "qty": 2, "unit": "c. à s." },
+      { "name": "huile neutre", "qty": 1, "unit": "c. à s." }
+    ],
     "steps": [
-      "Cuire le riz.",
-      "Saisir poulet + oignon.",
-      "Ajouter riz + soja, sauter 3 min."
+      "Rince le riz à l’eau froide jusqu’à ce qu’elle soit claire puis cuis-le dans une grande casserole d’eau bouillante salée (10–12 min). Égoutte et étale-le pour le tiédir : il sautera mieux.",
+      "Détaille le poulet en petits cubes et émince l’oignon finement.",
+      "Chauffe un wok ou une grande poêle avec l’huile. Saisis le poulet 3–4 min pour le colorer, sale très peu (la sauce soja est salée).",
+      "Ajoute l’oignon, fais revenir 2 min jusqu’à ce qu’il soit translucide.",
+      "Incorpore le riz tiédi, augmente le feu et fais sauter en remuant. Arrose de sauce soja, goûte et ajuste. Sers bien chaud."
     ],
     "time": 18,
     "budget": "éco",
-    "tags": ["riz"]
+    "tags": ["riz", "rapide", "poulet"]
   },
   {
     "slug": "wrap-thon-maison",
     "name": "Wrap thon maison",
-    "ingredients": ["tortillas", "thon", "maïs", "salade", "mayonnaise"],
+    "ingredients": [
+      { "name": "tortillas", "qty": 2, "unit": "" },
+      { "name": "thon au naturel égoutté", "qty": 140, "unit": "g" },
+      { "name": "maïs", "qty": 80, "unit": "g" },
+      { "name": "salade (feuilles)", "qty": 2, "unit": "poignées" },
+      { "name": "mayonnaise", "qty": 2, "unit": "c. à s." },
+      { "name": "jus de citron", "qty": 1, "unit": "c. à c." }
+    ],
     "steps": [
-      "Mélanger thon + mayo + maïs.",
-      "Garnir tortilla avec salade.",
-      "Rouler, couper."
+      "Égoutte bien le thon et mélange-le avec la mayonnaise et le jus de citron. Ajoute le maïs et poivre légèrement.",
+      "Réchauffe les tortillas 20 s à la poêle (optionnel).",
+      "Dépose la salade, puis le mélange thon-maïs. Roule bien serré, coupe en deux en biseau et sers frais."
     ],
     "time": 8,
     "budget": "éco",
@@ -55,11 +84,18 @@
   {
     "slug": "soupe-courgette-vqr",
     "name": "Velouté courgette & vache qui rit",
-    "ingredients": ["courgettes", "oignon", "vache qui rit", "eau", "sel", "poivre"],
+    "ingredients": [
+      { "name": "courgettes", "qty": 600, "unit": "g" },
+      { "name": "oignon", "qty": 1, "unit": "" },
+      { "name": "Vache qui rit (portions)", "qty": 4, "unit": "" },
+      { "name": "eau", "qty": 700, "unit": "ml" },
+      { "name": "sel", "qty": 1, "unit": "pincée" },
+      { "name": "poivre", "qty": 1, "unit": "pincée" }
+    ],
     "steps": [
-      "Cuire courgettes + oignon dans l'eau.",
-      "Mixer avec les portions.",
-      "Assaisonner."
+      "Coupe les courgettes en gros dés (pas besoin d’éplucher si elles sont fines) et émince l’oignon.",
+      "Mets le tout dans une casserole avec l’eau, du sel et du poivre. Couvre et laisse cuire 12–15 min jusqu’à ce que les courgettes soient tendres.",
+      "Ajoute les portions de fromage et mixe finement jusqu’à texture veloutée. Rectifie l’assaisonnement et sers bien chaud."
     ],
     "time": 20,
     "budget": "éco",
@@ -68,10 +104,17 @@
   {
     "slug": "salade-riz-omelette",
     "name": "Salade de riz & omelette",
-    "ingredients": ["riz", "œufs", "tomates", "maïs", "vinaigrette"],
+    "ingredients": [
+      { "name": "riz", "qty": 150, "unit": "g" },
+      { "name": "œufs", "qty": 3, "unit": "" },
+      { "name": "tomates", "qty": 2, "unit": "" },
+      { "name": "maïs", "qty": 80, "unit": "g" },
+      { "name": "vinaigrette", "qty": 3, "unit": "c. à s." }
+    ],
     "steps": [
-      "Cuire riz, faire omelette en lanières.",
-      "Mélanger tout avec vinaigrette."
+      "Fais cuire le riz dans une grande casserole d’eau salée (10–12 min), égoutte puis rince à l’eau froide pour le tiédir.",
+      "Bats les œufs avec sel/poivre et cuis une omelette fine à la poêle. Laisse tiédir puis coupe en lanières.",
+      "Mélange riz, tomates en dés, maïs et lanières d’omelette. Assaisonne de vinaigrette, goûte et ajuste. Garde au frais 10 min avant de servir."
     ],
     "time": 15,
     "budget": "éco",
@@ -80,10 +123,16 @@
   {
     "slug": "patates-roties-express",
     "name": "Pommes de terre rôties express",
-    "ingredients": ["pommes de terre", "huile", "sel", "paprika"],
+    "ingredients": [
+      { "name": "pommes de terre", "qty": 700, "unit": "g" },
+      { "name": "huile d’olive", "qty": 2, "unit": "c. à s." },
+      { "name": "paprika", "qty": 1, "unit": "c. à c." },
+      { "name": "sel", "qty": 1, "unit": "pincée" }
+    ],
     "steps": [
-      "Couper en dés, assaisonner.",
-      "Four 220°C ~25 min (ou airfryer ~15)."
+      "Préchauffe le four à 220°C (chaleur tournante) ou l’airfryer à 200°C. Coupe les pommes de terre en dés de 2 cm (garde la peau si elle est fine).",
+      "Mélange avec l’huile, le paprika et le sel, puis étale en une couche sur une plaque.",
+      "Au four : 25–30 min en remuant à mi-cuisson. Airfryer : 14–16 min. Le bord doit être croustillant et le cœur fondant."
     ],
     "time": 25,
     "budget": "éco",
@@ -92,216 +141,346 @@
   {
     "slug": "poulet-yaourt-citron",
     "name": "Poulet yaourt & citron",
-    "ingredients": ["poulet", "yaourt", "citron", "ail", "herbes", "sel", "poivre"],
+    "ingredients": [
+      { "name": "escalopes de poulet", "qty": 2, "unit": "" },
+      { "name": "yaourt nature", "qty": 120, "unit": "g" },
+      { "name": "jus de citron", "qty": 1, "unit": "c. à s." },
+      { "name": "ail", "qty": 1, "unit": "gousse" },
+      { "name": "herbes (thym/origan)", "qty": 1, "unit": "c. à c." },
+      { "name": "sel", "qty": 1, "unit": "pincée" },
+      { "name": "poivre", "qty": 1, "unit": "pincée" }
+    ],
     "steps": [
-      "Mélanger yaourt + citron + ail + herbes.",
-      "Mariner poulet 10 min (ou +).",
-      "Saisir ou finir au four."
+      "Mélange le yaourt avec le jus de citron, l’ail écrasé, les herbes, sel et poivre. Enduis le poulet et laisse mariner 10 min (ou plus si tu as le temps).",
+      "Saisis les escalopes dans une poêle chaude légèrement huilée, 3–4 min par face. Option : finir 5 min au four à 180°C pour un cœur bien moelleux.",
+      "Sers avec du riz ou une salade. La marinade rend la viande juteuse et parfumée."
     ],
     "time": 22,
     "budget": "normal",
     "tags": ["poulet"]
+  },
+  {
+    "slug": "pates-ail-huile",
+    "name": "Spaghettis ail & huile",
+    "ingredients": [
+      { "name": "spaghettis", "qty": 220, "unit": "g" },
+      { "name": "ail", "qty": 3, "unit": "gousses" },
+      { "name": "huile d’olive", "qty": 3, "unit": "c. à s." },
+      { "name": "piment (frais ou flocons)", "qty": 0.5, "unit": "c. à c." },
+      { "name": "persil", "qty": 1, "unit": "c. à s." },
+      { "name": "sel", "qty": 1, "unit": "pincée" }
+    ],
+    "steps": [
+      "Fais cuire les pâtes al dente dans une grande casserole d’eau salée.",
+      "Pendant ce temps, fais doucement revenir l’ail émincé dans l’huile avec le piment, à feu doux pour le confire sans brûler.",
+      "Égoutte en gardant un peu d’eau de cuisson. Mélange avec l’huile parfumée, ajoute le persil ciselé et une cuillerée d’eau de cuisson pour lier. Rectifie en sel et sers aussitôt."
+    ],
+    "time": 12,
+    "budget": "éco",
+    "tags": ["pâtes", "rapide", "végétarien"]
+  },
+  {
+    "slug": "gratin-thon-courgette",
+    "name": "Gratin thon & courgette express",
+    "ingredients": [
+      { "name": "thon égoutté", "qty": 200, "unit": "g" },
+      { "name": "courgettes", "qty": 400, "unit": "g" },
+      { "name": "oignon", "qty": 0.5, "unit": "" },
+      { "name": "crème liquide", "qty": 150, "unit": "ml" },
+      { "name": "fromage râpé", "qty": 60, "unit": "g" },
+      { "name": "sel", "qty": 1, "unit": "pincée" },
+      { "name": "poivre", "qty": 1, "unit": "pincée" }
+    ],
+    "steps": [
+      "Préchauffe le four à 200°C. Râpe les courgettes et presse-les légèrement pour retirer l’excès d’eau. Émince l’oignon.",
+      "Mélange thon, courgettes, oignon, crème, sel et poivre. Verse dans un petit plat à gratin.",
+      "Parseme de fromage et enfourne 18–20 min jusqu’à dorure. Laisse reposer 2 min avant de servir."
+    ],
+    "time": 25,
+    "budget": "normal",
+    "tags": ["four"]
+  },
+  {
+    "slug": "chakchouka-express",
+    "name": "Chakchouka express",
+    "ingredients": [
+      { "name": "poivrons", "qty": 2, "unit": "" },
+      { "name": "tomates pelées (boîte)", "qty": 400, "unit": "g" },
+      { "name": "oignon", "qty": 1, "unit": "" },
+      { "name": "œufs", "qty": 4, "unit": "" },
+      { "name": "cumin moulu", "qty": 1, "unit": "c. à c." },
+      { "name": "huile d’olive", "qty": 1, "unit": "c. à s." },
+      { "name": "sel", "qty": 1, "unit": "pincée" },
+      { "name": "poivre", "qty": 1, "unit": "pincée" }
+    ],
+    "steps": [
+      "Émince l’oignon, coupe les poivrons en lanières. Fais revenir le tout 6–7 min avec l’huile jusqu’à légère coloration.",
+      "Ajoute les tomates concassées et le cumin. Laisse mijoter 6–8 min pour épaissir et concentrer les saveurs.",
+      "Creuse 4 petits puits, casse un œuf dans chaque, couvre et cuis 3–4 min jusqu’à blanc pris et jaune coulant. Poivre et sers avec du pain."
+    ],
+    "time": 20,
+    "budget": "éco",
+    "tags": ["oeufs", "végétarien", "poêle"]
+  },
+  {
+    "slug": "poulet-moutarde-miel",
+    "name": "Poulet moutarde & miel",
+    "ingredients": [
+      { "name": "escalopes de poulet", "qty": 2, "unit": "" },
+      { "name": "moutarde", "qty": 1, "unit": "c. à s." },
+      { "name": "miel", "qty": 1, "unit": "c. à s." },
+      { "name": "crème liquide", "qty": 120, "unit": "ml" },
+      { "name": "huile", "qty": 1, "unit": "c. à s." },
+      { "name": "sel", "qty": 1, "unit": "pincée" },
+      { "name": "poivre", "qty": 1, "unit": "pincée" }
+    ],
+    "steps": [
+      "Saisis le poulet 3–4 min par face dans une poêle chaude légèrement huilée.",
+      "Baisse le feu, ajoute la moutarde et le miel, mélange pour enrober.",
+      "Verse la crème, mijote 4–5 min jusqu’à sauce nappante. Sale, poivre, et sers avec du riz."
+    ],
+    "time": 22,
+    "budget": "normal",
+    "tags": ["poulet"]
+  },
+  {
+    "slug": "riz-tomate-thon",
+    "name": "Riz tomate & thon",
+    "ingredients": [
+      { "name": "riz", "qty": 160, "unit": "g" },
+      { "name": "thon égoutté", "qty": 160, "unit": "g" },
+      { "name": "coulis de tomate", "qty": 200, "unit": "ml" },
+      { "name": "oignon", "qty": 0.5, "unit": "" },
+      { "name": "ail", "qty": 1, "unit": "gousse" },
+      { "name": "huile d’olive", "qty": 1, "unit": "c. à s." },
+      { "name": "sel", "qty": 1, "unit": "pincée" }
+    ],
+    "steps": [
+      "Fais cuire le riz dans une grande casserole d’eau salée (10–12 min).",
+      "Fais revenir l’oignon émincé et l’ail dans l’huile 2–3 min. Ajoute le coulis et laisse frémir 3 min.",
+      "Incorpore le thon émietté puis le riz égoutté. Mélange, goûte et rectifie en sel. Sers chaud."
+    ],
+    "time": 17,
+    "budget": "éco",
+    "tags": ["riz", "rapide"]
+  },
+  {
+    "slug": "tortilla-espagnole",
+    "name": "Tortilla pommes de terre",
+    "ingredients": [
+      { "name": "œufs", "qty": 5, "unit": "" },
+      { "name": "pommes de terre", "qty": 500, "unit": "g" },
+      { "name": "oignon", "qty": 1, "unit": "" },
+      { "name": "huile d’olive", "qty": 3, "unit": "c. à s." },
+      { "name": "sel", "qty": 1, "unit": "pincée" },
+      { "name": "poivre", "qty": 1, "unit": "pincée" }
+    ],
+    "steps": [
+      "Émince l’oignon. Coupe les pommes de terre en fines rondelles. Fais-les confire à feu doux dans l’huile 12–15 min avec l’oignon, sans trop colorer.",
+      "Bats les œufs avec sel/poivre. Égoutte les pommes de terre, mélange-les aux œufs.",
+      "Verse dans une poêle huilée, cuis 4–5 min à feu moyen. Retourne à l’aide d’une assiette, cuis encore 2–3 min. Déguste tiède."
+    ],
+    "time": 25,
+    "budget": "éco",
+    "tags": ["oeufs", "végétarien"]
+  },
+  {
+    "slug": "salade-lentilles-feta",
+    "name": "Salade de lentilles & feta",
+    "ingredients": [
+      { "name": "lentilles cuites", "qty": 300, "unit": "g" },
+      { "name": "feta", "qty": 120, "unit": "g" },
+      { "name": "oignon rouge", "qty": 0.5, "unit": "" },
+      { "name": "tomates", "qty": 2, "unit": "" },
+      { "name": "vinaigrette", "qty": 3, "unit": "c. à s." },
+      { "name": "persil", "qty": 1, "unit": "c. à s." }
+    ],
+    "steps": [
+      "Rince rapidement les lentilles cuites et égoutte bien.",
+      "Coupe les tomates en dés, émince finement l’oignon et coupe la feta en cubes.",
+      "Mélange le tout avec la vinaigrette et le persil ciselé. Poivre, goûte et ajuste l’assaisonnement. Réserve au frais 10 min."
+    ],
+    "time": 10,
+    "budget": "éco",
+    "tags": ["froid", "végétarien", "rapide"]
+  },
+  {
+    "slug": "pates-saumon-citron",
+    "name": "Pâtes saumon & citron",
+    "ingredients": [
+      { "name": "pâtes", "qty": 220, "unit": "g" },
+      { "name": "saumon fumé", "qty": 120, "unit": "g" },
+      { "name": "crème liquide", "qty": 150, "unit": "ml" },
+      { "name": "zeste de citron", "qty": 0.5, "unit": "citron" },
+      { "name": "jus de citron", "qty": 1, "unit": "c. à s." },
+      { "name": "aneth", "qty": 1, "unit": "c. à s." },
+      { "name": "poivre", "qty": 1, "unit": "pincée" }
+    ],
+    "steps": [
+      "Fais cuire les pâtes al dente.",
+      "Dans une petite casserole, chauffe la crème avec le zeste et le jus de citron, poivre. Ne fais pas bouillir.",
+      "Ajoute le saumon en lanières et l’aneth, mélange puis incorpore aux pâtes égouttées. Sers immédiatement."
+    ],
+    "time": 15,
+    "budget": "plus",
+    "tags": ["pâtes"]
+  },
+  {
+    "slug": "curry-pois-chiches",
+    "name": "Curry de pois chiches",
+    "ingredients": [
+      { "name": "pois chiches égouttés", "qty": 400, "unit": "g" },
+      { "name": "lait de coco", "qty": 200, "unit": "ml" },
+      { "name": "tomates concassées", "qty": 200, "unit": "g" },
+      { "name": "curry en poudre", "qty": 1, "unit": "c. à c." },
+      { "name": "oignon", "qty": 1, "unit": "" },
+      { "name": "huile", "qty": 1, "unit": "c. à s." },
+      { "name": "sel", "qty": 1, "unit": "pincée" }
+    ],
+    "steps": [
+      "Fais revenir l’oignon émincé avec l’huile 2–3 min. Ajoute le curry, chauffe 30 s pour le torréfier.",
+      "Ajoute les tomates, le lait de coco et les pois chiches. Laisse mijoter 12–15 min jusqu’à sauce onctueuse.",
+      "Sale légèrement, goûte et ajuste. Sers avec du riz."
+    ],
+    "time": 20,
+    "budget": "éco",
+    "tags": ["végétarien", "bol"]
+  },
+  {
+    "slug": "wrap-poulet-caesar",
+    "name": "Wrap poulet Caesar",
+    "ingredients": [
+      { "name": "tortillas", "qty": 2, "unit": "" },
+      { "name": "poulet cuit (ou rôti)", "qty": 200, "unit": "g" },
+      { "name": "salade romaine", "qty": 2, "unit": "poignées" },
+      { "name": "parmesan en copeaux", "qty": 30, "unit": "g" },
+      { "name": "mayonnaise", "qty": 2, "unit": "c. à s." },
+      { "name": "jus de citron", "qty": 1, "unit": "c. à c." }
+    ],
+    "steps": [
+      "Mélange la mayonnaise avec le jus de citron pour une sauce rapide.",
+      "Réchauffe les tortillas. Garnis de salade, poulet effiloché et parmesan.",
+      "Nappe de sauce, roule serré et coupe en deux."
+    ],
+    "time": 12,
+    "budget": "normal",
+    "tags": ["wrap", "rapide"]
+  },
+  {
+    "slug": "gratin-pates-jambon",
+    "name": "Gratin de pâtes au jambon",
+    "ingredients": [
+      { "name": "pâtes courtes", "qty": 220, "unit": "g" },
+      { "name": "jambon blanc", "qty": 2, "unit": "tranches" },
+      { "name": "crème liquide", "qty": 150, "unit": "ml" },
+      { "name": "fromage râpé", "qty": 80, "unit": "g" },
+      { "name": "sel", "qty": 1, "unit": "pincée" },
+      { "name": "poivre", "qty": 1, "unit": "pincée" }
+    ],
+    "steps": [
+      "Préchauffe le four à 200°C. Fais cuire les pâtes al dente et égoutte.",
+      "Mélange avec la crème, le jambon en dés, sel et poivre. Verse dans un plat, parsème de fromage.",
+      "Enfourne 15 min jusqu’à gratinage doré."
+    ],
+    "time": 25,
+    "budget": "éco",
+    "tags": ["four", "pâtes"]
+  },
+  {
+    "slug": "onepot-tomate-mozza",
+    "name": "One-pot tomate mozzarella",
+    "ingredients": [
+      { "name": "pâtes courtes", "qty": 200, "unit": "g" },
+      { "name": "tomates cerises", "qty": 250, "unit": "g" },
+      { "name": "ail", "qty": 2, "unit": "gousses" },
+      { "name": "mozzarella", "qty": 125, "unit": "g" },
+      { "name": "basilic", "qty": 1, "unit": "poignée" },
+      { "name": "huile d’olive", "qty": 1, "unit": "c. à s." },
+      { "name": "sel", "qty": 1, "unit": "pincée" }
+    ],
+    "steps": [
+      "Mets tout dans une casserole (pâtes, tomates cerises, ail émincé, huile, sel) et couvre d’eau juste à hauteur.",
+      "Porte à frémissement et cuis en remuant jusqu’à absorption et cuisson des pâtes.",
+      "Hors du feu, ajoute mozzarella en morceaux et basilic. Mélange et sers crémeux."
+    ],
+    "time": 14,
+    "budget": "éco",
+    "tags": ["pâtes", "rapide", "végétarien"]
+  },
+  {
+    "slug": "poelee-ratatouille-oeufs",
+    "name": "Poêlée façon ratatouille + œufs",
+    "ingredients": [
+      { "name": "aubergine", "qty": 1, "unit": "" },
+      { "name": "courgettes", "qty": 2, "unit": "" },
+      { "name": "poivron", "qty": 1, "unit": "" },
+      { "name": "tomates", "qty": 2, "unit": "" },
+      { "name": "œufs", "qty": 2, "unit": "" },
+      { "name": "huile d’olive", "qty": 2, "unit": "c. à s." },
+      { "name": "herbes de Provence", "qty": 1, "unit": "c. à c." },
+      { "name": "sel", "qty": 1, "unit": "pincée" }
+    ],
+    "steps": [
+      "Coupe tous les légumes en dés. Fais-les revenir à feu moyen avec l’huile et les herbes 12–15 min jusqu’à tendreté.",
+      "Creuse deux petits puits, casse les œufs, couvre et cuis 3–4 min. Sale légèrement et sers aussitôt."
+    ],
+    "time": 22,
+    "budget": "éco",
+    "tags": ["oeufs", "végétarien", "poêle"]
+  },
+  {
+    "slug": "croques-express",
+    "name": "Croques express à la poêle",
+    "ingredients": [
+      { "name": "pain de mie", "qty": 4, "unit": "tranches" },
+      { "name": "jambon", "qty": 2, "unit": "tranches" },
+      { "name": "fromage (emmental)", "qty": 2, "unit": "tranches" },
+      { "name": "beurre", "qty": 1, "unit": "noisette" }
+    ],
+    "steps": [
+      "Monte les croques : pain, fromage, jambon, fromage, pain.",
+      "Fais fondre une noisette de beurre dans une poêle et cuis 2–3 min par face à feu moyen en pressant légèrement jusqu’à dorure."
+    ],
+    "time": 8,
+    "budget": "éco",
+    "tags": ["rapide"]
+  },
+  {
+    "slug": "riz-frit-oeuf",
+    "name": "Riz frit à l'œuf",
+    "ingredients": [
+      { "name": "riz cuit (froid si possible)", "qty": 300, "unit": "g" },
+      { "name": "œufs", "qty": 2, "unit": "" },
+      { "name": "petits pois (surgelés)", "qty": 80, "unit": "g" },
+      { "name": "oignon", "qty": 0.5, "unit": "" },
+      { "name": "sauce soja", "qty": 1.5, "unit": "c. à s." },
+      { "name": "huile", "qty": 1, "unit": "c. à s." }
+    ],
+    "steps": [
+      "Fais revenir l’oignon émincé avec l’huile, ajoute les petits pois 2 min.",
+      "Pousse sur un côté, brouille les œufs de l’autre, puis mélange et ajoute le riz.",
+      "Verse la sauce soja, fais sauter 2–3 min à feu vif. Sers chaud."
+    ],
+    "time": 12,
+    "budget": "éco",
+    "tags": ["riz", "rapide"]
+  },
+  {
+    "slug": "salade-pates-pesto",
+    "name": "Salade de pâtes au pesto",
+    "ingredients": [
+      { "name": "pâtes", "qty": 250, "unit": "g" },
+      { "name": "pesto", "qty": 3, "unit": "c. à s." },
+      { "name": "tomates cerises", "qty": 200, "unit": "g" },
+      { "name": "mozzarella", "qty": 125, "unit": "g" },
+      { "name": "roquette", "qty": 2, "unit": "poignées" }
+    ],
+    "steps": [
+      "Fais cuire les pâtes al dente, rince brièvement à l’eau froide et égoutte bien.",
+      "Mélange avec le pesto, ajoute tomates cerises coupées, mozzarella en dés et roquette. Poivre si besoin et sers frais."
+    ],
+    "time": 15,
+    "budget": "normal",
+    "tags": ["froid", "pâtes", "végétarien"]
   }
-,
-{
-  "slug": "pates-ail-huile",
-  "name": "Spaghettis ail & huile",
-  "ingredients": ["pâtes","ail","huile d'olive","piment","persil","sel"],
-  "steps": [
-    "Cuire les pâtes al dente.",
-    "Saisir ail émincé dans l'huile avec un peu de piment.",
-    "Mélanger avec les pâtes et persil, saler."
-  ],
-  "time": 12,
-  "budget": "éco",
-  "tags": ["pâtes","rapide","végétarien"]
-},
-{
-  "slug": "gratin-thon-courgette",
-  "name": "Gratin thon & courgette express",
-  "ingredients": ["thon","courgettes","crème","oignon","fromage râpé","sel","poivre"],
-  "steps": [
-    "Râper courgettes, émincer oignon.",
-    "Mélanger avec thon, crème, assaisonner.",
-    "Parsemer de fromage, four 200°C ~18 min."
-  ],
-  "time": 25,
-  "budget": "normal",
-  "tags": ["four"]
-},
-{
-  "slug": "chakchouka-express",
-  "name": "Chakchouka express",
-  "ingredients": ["poivrons","tomates","oignon","œufs","cumin","huile","sel","poivre"],
-  "steps": [
-    "Saisir oignon + poivrons.",
-    "Ajouter tomates + cumin, mijoter.",
-    "Casser les œufs dessus, cuire à couvert."
-  ],
-  "time": 20,
-  "budget": "éco",
-  "tags": ["oeufs","végétarien","poêle"]
-},
-{
-  "slug": "poulet-moutarde-miel",
-  "name": "Poulet moutarde & miel",
-  "ingredients": ["poulet","moutarde","miel","crème","huile","sel","poivre"],
-  "steps": [
-    "Saisir le poulet.",
-    "Ajouter moutarde + miel, puis crème.",
-    "Mijoter 5 min, assaisonner."
-  ],
-  "time": 22,
-  "budget": "normal",
-  "tags": ["poulet"]
-},
-{
-  "slug": "riz-tomate-ton",
-  "name": "Riz tomate & thon",
-  "ingredients": ["riz","thon","coulis de tomate","oignon","ail","huile","sel"],
-  "steps": [
-    "Cuire le riz.",
-    "Faire revenir oignon + ail, ajouter coulis.",
-    "Mélanger avec riz et thon, rectifier l'assaisonnement."
-  ],
-  "time": 17,
-  "budget": "éco",
-  "tags": ["riz","rapide"]
-},
-{
-  "slug": "tortilla-espagnole",
-  "name": "Tortilla pommes de terre",
-  "ingredients": ["œufs","pommes de terre","oignon","huile","sel","poivre"],
-  "steps": [
-    "Cuire fines tranches de pommes de terre + oignon dans l'huile.",
-    "Verser œufs battus, cuire des deux côtés."
-  ],
-  "time": 25,
-  "budget": "éco",
-  "tags": ["oeufs","végétarien"]
-},
-{
-  "slug": "salade-lentilles-feta",
-  "name": "Salade de lentilles & feta",
-  "ingredients": ["lentilles cuites","feta","oignon rouge","tomates","vinaigrette","persil"],
-  "steps": [
-    "Rincer les lentilles cuites.",
-    "Mélanger avec dés de feta, tomates, oignon, persil et vinaigrette."
-  ],
-  "time": 10,
-  "budget": "éco",
-  "tags": ["froid","végétarien","rapide"]
-},
-{
-  "slug": "pates-saumon-citron",
-  "name": "Pâtes saumon & citron",
-  "ingredients": ["pâtes","saumon fumé","crème","citron","aneth","poivre"],
-  "steps": [
-    "Cuire les pâtes.",
-    "Mélanger crème + citron + aneth, chauffer doucement.",
-    "Ajouter saumon en lanières, mélanger avec les pâtes."
-  ],
-  "time": 15,
-  "budget": "plus",
-  "tags": ["pâtes"]
-},
-{
-  "slug": "curry-pois-chiches",
-  "name": "Curry de pois chiches",
-  "ingredients": ["pois chiches","lait de coco","curry","tomates concassées","oignon","huile","sel"],
-  "steps": [
-    "Saisir oignon + curry.",
-    "Ajouter pois chiches, tomates, lait de coco.",
-    "Mijoter 12 min, servir avec riz."
-  ],
-  "time": 20,
-  "budget": "éco",
-  "tags": ["végétarien","bol"]
-},
-{
-  "slug": "wrap-poulet-caesar",
-  "name": "Wrap poulet Caesar",
-  "ingredients": ["tortillas","poulet","salade","parmesan","mayonnaise","citron"],
-  "steps": [
-    "Mélanger mayo + citron (sauce rapide).",
-    "Garnir tortilla de poulet, salade, parmesan, sauce.",
-    "Rouler et couper."
-  ],
-  "time": 12,
-  "budget": "normal",
-  "tags": ["wrap","rapide"]
-},
-{
-  "slug": "gratin-pates-jambon",
-  "name": "Gratin de pâtes au jambon",
-  "ingredients": ["pâtes","jambon","crème","fromage râpé","sel","poivre"],
-  "steps": [
-    "Cuire pâtes, mélanger avec crème et jambon.",
-    "Parsemer de fromage, four 200°C ~15 min."
-  ],
-  "time": 25,
-  "budget": "éco",
-  "tags": ["four","pâtes"]
-},
-{
-  "slug": "onepot-tomate-mozza",
-  "name": "One-pot tomate mozzarella",
-  "ingredients": ["pâtes","tomates cerises","ail","mozzarella","basilic","huile","sel"],
-  "steps": [
-    "Tout dans une casserole avec eau juste à hauteur.",
-    "Cuire jusqu'à absorption, ajouter mozzarella et basilic."
-  ],
-  "time": 14,
-  "budget": "éco",
-  "tags": ["pâtes","rapide","végétarien"]
-},
-{
-  "slug": "poelee-ratatouille-oeufs",
-  "name": "Poêlée façon ratatouille + œufs",
-  "ingredients": ["aubergine","courgettes","poivron","tomates","œufs","huile","herbes","sel"],
-  "steps": [
-    "Poêler les légumes en dés avec huile et herbes.",
-    "Casser 2 œufs, couvrir 3–4 min."
-  ],
-  "time": 22,
-  "budget": "éco",
-  "tags": ["oeufs","végétarien","poêle"]
-},
-{
-  "slug": "croques-express",
-  "name": "Croques express à la poêle",
-  "ingredients": ["pain de mie","jambon","fromage","beurre"],
-  "steps": [
-    "Monter les croques.",
-    "Cuire à la poêle beurrée 2–3 min par face."
-  ],
-  "time": 8,
-  "budget": "éco",
-  "tags": ["rapide"]
-},
-{
-  "slug": "riz-frite-oeuf",
-  "name": "Riz frit à l'œuf",
-  "ingredients": ["riz cuit","œufs","petits pois","oignon","sauce soja","huile"],
-  "steps": [
-    "Saisir oignon, ajouter riz cuit et petits pois.",
-    "Pousser, brouiller les œufs, mélanger, soja."
-  ],
-  "time": 12,
-  "budget": "éco",
-  "tags": ["riz","rapide"]
-},
-{
-  "slug": "salade-pates-pesto",
-  "name": "Salade de pâtes au pesto",
-  "ingredients": ["pâtes","pesto","tomates cerises","mozzarella","roquette"],
-  "steps": [
-    "Cuire et refroidir les pâtes.",
-    "Mélanger avec pesto, tomates, mozzarella, roquette."
-  ],
-  "time": 15,
-  "budget": "normal",
-  "tags": ["froid","pâtes","végétarien"]
-}
-
 ]

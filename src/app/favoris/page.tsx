@@ -1,32 +1,62 @@
-"use client";
-import Header from "@/components/Header";
-import data from "@/data/recipes.json";
-import type { Recipe } from "@/lib/types";
-import { favorites } from "@/lib/storage";
-import RecipeCard from "@/components/RecipeCard";
-import { useEffect, useState } from "react";
+'use client';
+
+import * as React from 'react';
+import Link from 'next/link';
+import data from '@/data/recipes_full_v5.json';
+import RecipeCard from '@/components/RecipeCard';
+import { favorites } from '@/lib/storage';
+
+type Recipe = {
+  slug: string;
+  name: string;
+  time?: number;
+  budget?: string;
+  tags?: string[];
+};
+
+const all: Recipe[] = (data as any) as Recipe[];
 
 export default function FavorisPage() {
-  const [items, setItems] = useState<Recipe[]>([]);
+  const [slugs, setSlugs] = React.useState<string[]>([]);
 
-  useEffect(() => {
-    const favs = new Set(favorites.all());
-    setItems((data as Recipe[]).filter(r => favs.has(r.slug)));
+  React.useEffect(() => {
+    // charger les favoris depuis localStorage via la lib
+    setSlugs(favorites.get() as string[]);
   }, []);
 
+  function refresh() {
+    setSlugs(favorites.get() as string[]);
+  }
+
+  function onClear() {
+    favorites.clear();
+    refresh();
+  }
+
+  const recs = React.useMemo(
+    () => all.filter((r) => slugs.includes(r.slug)),
+    [slugs]
+  );
+
   return (
-    <div>
-      <Header />
-      <main className="max-w-5xl mx-auto px-4 py-6">
-        <h1 className="text-2xl font-semibold mb-4">Mes favoris</h1>
-        {items.length === 0 ? (
-          <div className="opacity-70">Aucune recette en favori.</div>
-        ) : (
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {items.map(r => <RecipeCard key={r.slug} r={r} />)}
-          </div>
+    <main className="stack" style={{ marginTop: 18 }}>
+      <header className="row" style={{ justifyContent: 'space-between', alignItems: 'center' }}>
+        <h1 className="h1">Favoris</h1>
+        {recs.length > 0 && (
+          <button className="btn danger" onClick={onClear}>Vider</button>
         )}
-      </main>
-    </div>
+      </header>
+
+      {recs.length === 0 ? (
+        <div className="card">
+          <p className="muted">
+            Aucun favori pour le moment. Retourne à l’
+            <Link href="/">accueil</Link> pour en ajouter ✨
+          </p>
+        </div>
+      ) : (
+        recs.map((r) => <RecipeCard key={r.slug} r={r as any} />)
+      )}
+    </main>
   );
 }

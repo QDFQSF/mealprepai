@@ -1,46 +1,115 @@
-const FAVORITES_KEY = "mpai:favs";
-const PANTRY_KEY = "mpai:pantry";
-const LIST_KEY = "mpai:list";
+"use client";
 
-export const storage = {
-  get<T>(key: string, fallback: T): T {
-    if (typeof window === "undefined") return fallback;
-    try {
-      const v = window.localStorage.getItem(key);
-      return v ? (JSON.parse(v) as T) : fallback;
-    } catch { return fallback; }
-  },
-  set<T>(key: string, value: T) {
-    if (typeof window === "undefined") return;
-    window.localStorage.setItem(key, JSON.stringify(value));
-  },
+// --- SHOPPING LIST ---
+const KEY_LIST = "mealprep_list";
+const KEY_FAVS = "mealprep_favs";
+
+export type ListItem = {
+  name: string;
+  qty?: number;
+  unit?: string;
+  recipe?: string;
+  checked?: boolean;
 };
+
+// ✅ Récupérer la liste complète
+function get() {
+  if (typeof window === "undefined") return [];
+  try {
+    return JSON.parse(localStorage.getItem(KEY_LIST) || "[]");
+  } catch {
+    return [];
+  }
+}
+
+// ✅ Enregistrer une nouvelle liste
+function set(list: ListItem[]) {
+  if (typeof window !== "undefined") {
+    localStorage.setItem(KEY_LIST, JSON.stringify(list));
+  }
+}
+
+// ✅ Ajouter un seul ingrédient
+function add(item: ListItem) {
+  const list = get();
+  list.push(item);
+  set(list);
+}
+
+// ✅ Ajouter plusieurs ingrédients à la fois (nouvelle fonction)
+function addMany(items: ListItem[]) {
+  const list = get();
+  const newList = [...list, ...items];
+  set(newList);
+}
+
+// ✅ Supprimer toute la liste
+function clear() {
+  if (typeof window !== "undefined") {
+    localStorage.removeItem(KEY_LIST);
+  }
+}
+
+// ✅ Cocher / décocher un ingrédient
+function toggleCheck(index: number) {
+  const list = get();
+  if (list[index]) {
+    list[index].checked = !list[index].checked;
+    set(list);
+  }
+}
+
+export const shoppingList = {
+  get,
+  set,
+  add,
+  addMany, // 👈 ajouté ici
+  clear,
+  toggleCheck,
+};
+
+// --- FAVORIS ---
+function getFavs() {
+  if (typeof window === "undefined") return [];
+  try {
+    return JSON.parse(localStorage.getItem(KEY_FAVS) || "[]");
+  } catch {
+    return [];
+  }
+}
+
+function setFavs(favs: string[]) {
+  if (typeof window !== "undefined") {
+    localStorage.setItem(KEY_FAVS, JSON.stringify(favs));
+  }
+}
+
+function has(slug: string) {
+  return getFavs().includes(slug);
+}
+
+function toggle(slug: string) {
+  const favs = getFavs();
+  const updated = has(slug)
+    ? favs.filter((f) => f !== slug)
+    : [...favs, slug];
+  setFavs(updated);
+}
+
+function clearFavs() {
+  if (typeof window !== "undefined") {
+    localStorage.removeItem(KEY_FAVS);
+  }
+}
 
 export const favorites = {
-  all(): string[] { return storage.get<string[]>(FAVORITES_KEY, []); },
-  has(slug: string) { return favorites.all().includes(slug); },
-  toggle(slug: string) {
-    const f = new Set(favorites.all());
-    f.has(slug) ? f.delete(slug) : f.add(slug);
-    storage.set(FAVORITES_KEY, Array.from(f));
-  },
+  get: getFavs,
+  has,
+  toggle,
+  clear: clearFavs,
 };
 
-export const pantry = {
-  get(): string[] { return storage.get<string[]>(PANTRY_KEY, []); },
-  set(items: string[]) { storage.set(PANTRY_KEY, items); },
-};
-
-export const shoplist = {
-  get(): string[] { return storage.get<string[]>(LIST_KEY, []); },
-  add(items: string[]) {
-    const s = new Set(shoplist.get());
-    items.forEach(i => s.add(i));
-    storage.set(LIST_KEY, Array.from(s));
-  },
-  remove(item: string) {
-    const s = new Set(shoplist.get()); s.delete(item);
-    storage.set(LIST_KEY, Array.from(s));
-  },
-  clear() { storage.set(LIST_KEY, []); },
-};
+// ✅ Fonction compatible avec les anciens imports
+export function toggleFavorite(slug: string) {
+  favorites.toggle(slug);
+}
