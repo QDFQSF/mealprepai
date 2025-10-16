@@ -82,7 +82,13 @@ export default function RecipeClient({ recipe }: { recipe: Recipe }) {
     setServings(baseServings);
   }, [baseServings]);
 
-  if (!recipe) return <div className="card" style={{ marginTop: 18 }}>Recette introuvable.</div>;
+  if (!recipe) {
+    return (
+      <div className="card" style={{ marginTop: 18 }}>
+        Recette introuvable.
+      </div>
+    );
+  }
 
   const baseItems: ListItem[] = React.useMemo(() => {
     const src = Array.isArray(recipe.ingredientsQty) && recipe.ingredientsQty.length
